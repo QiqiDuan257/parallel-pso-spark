@@ -1,0 +1,243 @@
+% NOTE that the original paper here refer to:
+%    Liang J J, Qin A K, Suganthan P N, et al.
+%    Comprehensive Learning Particle Swarm Optimizer for Global Optimization of Multimodal Functions.
+%    IEEE Transactions on Evolutionary Computation (IEEE TEVC), 2006, 10(3): 281-295.
+%    http://ieeexplore.ieee.org/abstract/document/1637688/
+% rather than:
+%    Shi Y, Eberhart R. A Modified Particle Swarm Optimizer.
+%    IEEE World Congress on Computational Intelligence, 1998, 69-73.
+%    http://ieeexplore.ieee.org/document/699146/
+
+
+
+* funcName: cfSphere + testNum: 3 + funcDim: 10
+* algoName: PSOSpark + algoFuncEvalMax: 30000
+test  0: opty = +5.0366e-53 || runTime = 4.62e+01 || funcEvalRuntime = 4.52e+01 || funcEvalNum = 30000 || <- optx [-1.11e-27 ... +2.71e-27]
+test  1: opty = +4.1736e-56 || runTime = 3.74e+01 || funcEvalRuntime = 3.68e+01 || funcEvalNum = 30000 || <- optx [+2.14e-29 ... +8.14e-29]
+test  2: opty = +1.9447e-56 || runTime = 3.67e+01 || funcEvalRuntime = 3.61e+01 || funcEvalNum = 30000 || <- optx [-3.03e-29 ... +1.32e-29]
+$ ------- >>> Summary <<< ------- $:
+* funcName: cfSphere + testNum: 3 + funcDim: 10
+* algoName: PSOSpark + algoFuncEvalMax: 30000
+opty            --- Mean & Std: 1.68e-53 & 2.91e-53
+runtime         --- Mean & Std: 4.01e+01 & 5.28e+00
+funcEvalRuntime --- Mean & Std: 3.94e+01 & 5.06e+00
+funcEvalRatio   --- Mean & Std:   98.18% &    0.28%
+funcEvalNum     --- Mean & Std: 3.00e+04 & 0.00e+00
+Total run time: 1.21e+02 seconds.
+$ ------- >>> Summary <<< ------- $:
+* funcName: cfSphere + testNum: 30 + funcDim: 10
+* algoName: PSO + algoFuncEvalMax: 30000
+opty            --- Mean & Std: 6.47e-50 & 2.58e-49 vs. (7.96e-51 & 3.56e-50) [from the original paper]
+runtime         --- Mean & Std: 1.47e-01 & 8.94e-02
+funcEvalRuntime --- Mean & Std: 3.66e-03 & 5.36e-03
+funcEvalRatio   --- Mean & Std:    2.14% &    0.63%
+funcEvalNum     --- Mean & Std: 3.00e+04 & 0.00e+00
+Total run time: 4.92e+00 seconds.
+
+
+
+* funcName: cfSphere + testNum: 3 + funcDim: 30
+* algoName: PSOSpark + algoFuncEvalMax: 200000
+test  0: opty = +9.5259e-35 || runTime = 8.83e+01 || funcEvalRuntime = 8.60e+01 || funcEvalNum = 200000 || <- optx [-3.07e-19 ... +4.00e-18]
+test  1: opty = +2.5714e-34 || runTime = 7.64e+01 || funcEvalRuntime = 7.45e+01 || funcEvalNum = 200000 || <- optx [+8.87e-20 ... +4.72e-18]
+test  2: opty = +4.4050e-32 || runTime = 7.75e+01 || funcEvalRuntime = 7.55e+01 || funcEvalNum = 200000 || <- optx [-2.47e-17 ... +5.73e-17]
+$ ------- >>> Summary <<< ------- $:
+* funcName: cfSphere + testNum: 3 + funcDim: 30
+* algoName: PSOSpark + algoFuncEvalMax: 200000
+opty            --- Mean & Std: 1.48e-32 & 2.53e-32
+runtime         --- Mean & Std: 8.07e+01 & 6.56e+00
+funcEvalRuntime --- Mean & Std: 7.87e+01 & 6.38e+00
+funcEvalRatio   --- Mean & Std:   97.51% &    0.02%
+funcEvalNum     --- Mean & Std: 2.00e+05 & 0.00e+00
+Total run time: 2.42e+02 seconds.
+$ ------- >>> Summary <<< ------- $:
+* funcName: cfSphere + testNum: 30 + funcDim: 30
+* algoName: PSO + algoFuncEvalMax: 200000
+opty            --- Mean & Std: 7.22e-32 & 1.77e-31 vs. (9.78e-30 & 2.50e-29) [from the original paper]
+runtime         --- Mean & Std: 2.47e+00 & 1.29e-01
+funcEvalRuntime --- Mean & Std: 3.11e-02 & 6.63e-03
+funcEvalRatio   --- Mean & Std:    1.25% &    0.16%
+funcEvalNum     --- Mean & Std: 2.00e+05 & 0.00e+00
+Total run time: 7.48e+01 seconds.
+
+
+
+* funcName: cfRosenbrock + testNum: 3 + funcDim: 10
+* algoName: PSOSpark + algoFuncEvalMax: 30000
+test  0: opty = +4.2009e+00 || runTime = 4.53e+01 || funcEvalRuntime = 4.44e+01 || funcEvalNum = 30000 || <- optx [+9.38e-01 ... -3.05e-03]
+test  1: opty = +4.3721e+00 || runTime = 3.76e+01 || funcEvalRuntime = 3.69e+01 || funcEvalNum = 30000 || <- optx [+9.36e-01 ... +1.97e-04]
+test  2: opty = +3.5679e+00 || runTime = 3.68e+01 || funcEvalRuntime = 3.62e+01 || funcEvalNum = 30000 || <- optx [+9.61e-01 ... -2.27e-03]
+$ ------- >>> Summary <<< ------- $:
+* funcName: cfRosenbrock + testNum: 3 + funcDim: 10
+* algoName: PSOSpark + algoFuncEvalMax: 30000
+opty            --- Mean & Std: 4.05e+00 & 4.24e-01
+runtime         --- Mean & Std: 3.99e+01 & 4.69e+00
+funcEvalRuntime --- Mean & Std: 3.92e+01 & 4.51e+00
+funcEvalRatio   --- Mean & Std:   98.24% &    0.24%
+funcEvalNum     --- Mean & Std: 3.00e+04 & 0.00e+00
+Total run time: 1.20e+02 seconds.
+$ ------- >>> Summary <<< ------- $:
+* funcName: cfRosenbrock + testNum: 30 + funcDim: 10
+* algoName: PSO + algoFuncEvalMax: 30000
+opty            --- Mean & Std: 1.77e+00 & 2.48e+00 vs. (3.08e+00 & 7.69e-01) [from the original paper]
+runtime         --- Mean & Std: 1.71e-01 & 7.24e-02
+funcEvalRuntime --- Mean & Std: 6.97e-03 & 8.08e-03
+funcEvalRatio   --- Mean & Std:    3.65% &    1.11%
+funcEvalNum     --- Mean & Std: 3.00e+04 & 0.00e+00
+Total run time: 5.68e+00 seconds.
+
+
+
+* funcName: cfRosenbrock + testNum: 3 + funcDim: 30
+* algoName: PSOSpark + algoFuncEvalMax: 200000
+test  0: opty = +2.2982e+01 || runTime = 8.44e+01 || funcEvalRuntime = 8.22e+01 || funcEvalNum = 200000 || <- optx [+9.69e-01 ... +3.76e-03]
+test  1: opty = +2.7696e+01 || runTime = 7.45e+01 || funcEvalRuntime = 7.26e+01 || funcEvalNum = 200000 || <- optx [-9.37e-01 ... +4.05e-03]
+test  2: opty = +2.2626e+01 || runTime = 7.36e+01 || funcEvalRuntime = 7.17e+01 || funcEvalNum = 200000 || <- optx [+9.72e-01 ... +1.38e-03]
+$ ------- >>> Summary <<< ------- $:
+* funcName: cfRosenbrock + testNum: 3 + funcDim: 30
+* algoName: PSOSpark + algoFuncEvalMax: 200000
+opty            --- Mean & Std: 2.44e+01 & 2.83e+00
+runtime         --- Mean & Std: 7.75e+01 & 6.00e+00
+funcEvalRuntime --- Mean & Std: 7.55e+01 & 5.80e+00
+funcEvalRatio   --- Mean & Std:   97.47% &    0.06%
+funcEvalNum     --- Mean & Std: 2.00e+05 & 0.00e+00
+Total run time: 2.33e+02 seconds.
+$ ------- >>> Summary <<< ------- $:
+* funcName: cfRosenbrock + testNum: 30 + funcDim: 30
+* algoName: PSO + algoFuncEvalMax: 200000
+opty            --- Mean & Std: 3.36e+01 & 2.62e+01 vs. (2.93e+01 & 2.51e+01) [from the original paper]
+runtime         --- Mean & Std: 2.36e+00 & 1.17e-01
+funcEvalRuntime --- Mean & Std: 7.24e-02 & 1.21e-02
+funcEvalRatio   --- Mean & Std:    3.06% &    0.30%
+funcEvalNum     --- Mean & Std: 2.00e+05 & 0.00e+00
+Total run time: 7.13e+01 seconds.
+
+
+
+* funcName: cfGriewank + testNum: 3 + funcDim: 10
+* algoName: PSOSpark + algoFuncEvalMax: 30000
+test  0: opty = +6.3956e-02 || runTime = 4.58e+01 || funcEvalRuntime = 4.48e+01 || funcEvalNum = 30000 || <- optx [+6.28e+00 ... +9.89e+00]
+test  1: opty = +8.8497e-02 || runTime = 3.80e+01 || funcEvalRuntime = 3.74e+01 || funcEvalNum = 30000 || <- optx [-1.27e-09 ... -9.89e+00]
+test  2: opty = +1.4516e-01 || runTime = 3.78e+01 || funcEvalRuntime = 3.72e+01 || funcEvalNum = 30000 || <- optx [-3.14e+00 ... +9.89e+00]
+$ ------- >>> Summary <<< ------- $:
+* funcName: cfGriewank + testNum: 3 + funcDim: 10
+* algoName: PSOSpark + algoFuncEvalMax: 30000
+opty            --- Mean & Std: 9.92e-02 & 4.16e-02
+runtime         --- Mean & Std: 4.05e+01 & 4.57e+00
+funcEvalRuntime --- Mean & Std: 3.98e+01 & 4.36e+00
+funcEvalRatio   --- Mean & Std:   98.22% &    0.29%
+funcEvalNum     --- Mean & Std: 3.00e+04 & 0.00e+00
+$ ------- >>> Summary <<< ------- $:
+* funcName: cfGriewank + testNum: 30 + funcDim: 10
+* algoName: PSO + algoFuncEvalMax: 30000
+opty            --- Mean & Std: 7.55e-02 & 3.11e-02 vs. (9.69e-02 & 5.01e-02) [from the original paper]
+runtime         --- Mean & Std: 1.79e-01 & 8.03e-02
+funcEvalRuntime --- Mean & Std: 2.46e-02 & 1.18e-02
+funcEvalRatio   --- Mean & Std:   13.67% &    0.58%
+funcEvalNum     --- Mean & Std: 3.00e+04 & 0.00e+00
+Total run time: 5.93e+00 seconds.
+
+
+
+* funcName: cfGriewank + testNum: 3 + funcDim: 30
+* algoName: PSOSpark + algoFuncEvalMax: 200000
+test  0: opty = +0.0000e+00 || runTime = 8.17e+01 || funcEvalRuntime = 7.96e+01 || funcEvalNum = 200000 || <- optx [+2.18e-09 ... -1.65e-09]
+test  1: opty = +0.0000e+00 || runTime = 7.23e+01 || funcEvalRuntime = 7.05e+01 || funcEvalNum = 200000 || <- optx [-3.49e-10 ... -3.17e-08]
+test  2: opty = +1.7241e-02 || runTime = 7.24e+01 || funcEvalRuntime = 7.05e+01 || funcEvalNum = 200000 || <- optx [-3.95e-09 ... +4.16e-08]
+$ ------- >>> Summary <<< ------- $:
+* funcName: cfGriewank + testNum: 3 + funcDim: 30
+* algoName: PSOSpark + algoFuncEvalMax: 200000
+opty            --- Mean & Std: 5.75e-03 & 9.95e-03
+runtime         --- Mean & Std: 7.54e+01 & 5.42e+00
+funcEvalRuntime --- Mean & Std: 7.35e+01 & 5.22e+00
+funcEvalRatio   --- Mean & Std:   97.47% &    0.07%
+funcEvalNum     --- Mean & Std: 2.00e+05 & 0.00e+00
+Total run time: 2.27e+02 seconds.
+$ ------- >>> Summary <<< ------- $:
+* funcName: cfGriewank + testNum: 30 + funcDim: 30
+* algoName: PSO + algoFuncEvalMax: 200000
+opty            --- Mean & Std: 1.64e-02 & 1.64e-02 vs. (8.13e-03 & 7.16e-03) [from the original paper]
+runtime         --- Mean & Std: 2.77e+00 & 1.13e-01
+funcEvalRuntime --- Mean & Std: 3.48e-01 & 1.90e-02
+funcEvalRatio   --- Mean & Std:   12.54% &    0.20%
+funcEvalNum     --- Mean & Std: 2.00e+05 & 0.00e+00
+Total run time: 8.37e+01 seconds.
+
+
+
+* funcName: cfRastrigin + testNum: 3 + funcDim: 10
+* algoName: PSOSpark + algoFuncEvalMax: 30000
+test  0: opty = +4.9748e+00 || runTime = 4.70e+01 || funcEvalRuntime = 4.61e+01 || funcEvalNum = 30000 || <- optx [-1.15e-09 ... +8.28e-10]
+test  1: opty = +1.5919e+01 || runTime = 3.85e+01 || funcEvalRuntime = 3.78e+01 || funcEvalNum = 30000 || <- optx [-9.95e-01 ... -9.95e-01]
+test  2: opty = +6.9647e+00 || runTime = 3.76e+01 || funcEvalRuntime = 3.70e+01 || funcEvalNum = 30000 || <- optx [+9.95e-01 ... -9.95e-01]
+$ ------- >>> Summary <<< ------- $:
+* funcName: cfRastrigin + testNum: 3 + funcDim: 10
+* algoName: PSOSpark + algoFuncEvalMax: 30000
+opty            --- Mean & Std: 9.29e+00 & 5.83e+00
+runtime         --- Mean & Std: 4.10e+01 & 5.22e+00
+funcEvalRuntime --- Mean & Std: 4.03e+01 & 5.03e+00
+funcEvalRatio   --- Mean & Std:   98.22% &    0.22%
+funcEvalNum     --- Mean & Std: 3.00e+04 & 0.00e+00
+$ ------- >>> Summary <<< ------- $:
+* funcName: cfRastrigin + testNum: 30 + funcDim: 10
+* algoName: PSO + algoFuncEvalMax: 30000
+opty            --- Mean & Std: 5.01e+00 & 2.46e+00 vs. (5.82e+00 & 2.96e+00) [from the original paper]
+runtime         --- Mean & Std: 1.83e-01 & 7.20e-02
+funcEvalRuntime --- Mean & Std: 1.76e-02 & 6.76e-03
+funcEvalRatio   --- Mean & Std:    9.69% &    0.29%
+funcEvalNum     --- Mean & Std: 3.00e+04 & 0.00e+00
+Total run time: 6.04e+00 seconds.
+
+
+
+* funcName: cfRastrigin + testNum: 3 + funcDim: 30
+* algoName: PSOSpark + algoFuncEvalMax: 200000
+test  0: opty = +4.6763e+01 || runTime = 8.54e+01 || funcEvalRuntime = 8.32e+01 || funcEvalNum = 200000 || <- optx [-9.95e-01 ... +4.75e-10]
+test  1: opty = +3.6813e+01 || runTime = 7.54e+01 || funcEvalRuntime = 7.36e+01 || funcEvalNum = 200000 || <- optx [-9.95e-01 ... -1.79e-09]
+test  2: opty = +3.0844e+01 || runTime = 7.54e+01 || funcEvalRuntime = 7.36e+01 || funcEvalNum = 200000 || <- optx [+1.53e-09 ... -3.29e-09]
+$ ------- >>> Summary <<< ------- $:
+* funcName: cfRastrigin + testNum: 3 + funcDim: 30
+* algoName: PSOSpark + algoFuncEvalMax: 200000
+opty            --- Mean & Std: 3.81e+01 & 8.04e+00
+runtime         --- Mean & Std: 7.88e+01 & 5.79e+00
+funcEvalRuntime --- Mean & Std: 7.68e+01 & 5.56e+00
+funcEvalRatio   --- Mean & Std:   97.53% &    0.10%
+funcEvalNum     --- Mean & Std: 2.00e+05 & 0.00e+00
+Total run time: 2.37e+02 seconds.
+$ ------- >>> Summary <<< ------- $:
+* funcName: cfRastrigin + testNum: 30 + funcDim: 30
+* algoName: PSO + algoFuncEvalMax: 200000
+opty            --- Mean & Std: 2.54e+01 & 6.79e+00 vs. (2.90e+01 & 7.70e+00) [from the original paper]
+runtime         --- Mean & Std: 2.84e+00 & 1.62e-01
+funcEvalRuntime --- Mean & Std: 2.98e-01 & 1.92e-02
+funcEvalRatio   --- Mean & Std:   10.47% &    0.14%
+funcEvalNum     --- Mean & Std: 2.00e+05 & 0.00e+00
+Total run time: 8.58e+01 seconds.
+
+
+
+* funcName: cfSchwefel12 + testNum: 5 + funcDim: 10000
+* algoName: PSOSpark + algoFuncEvalMax: 500
+test  0: opty = +3.1179e+07 || runTime = 4.43e+00 || funcEvalRuntime = 3.23e+00 || funcEvalNum = 500 || <- optx [+2.12e-01 ... -1.00e+01]
+test  1: opty = +2.0838e+07 || runTime = 1.89e+00 || funcEvalRuntime = 1.10e+00 || funcEvalNum = 500 || <- optx [+7.90e+00 ... -3.84e+00]
+test  2: opty = +2.2303e+07 || runTime = 1.79e+00 || funcEvalRuntime = 1.08e+00 || funcEvalNum = 500 || <- optx [-1.94e+00 ... -1.31e+00]
+test  3: opty = +2.9146e+07 || runTime = 1.74e+00 || funcEvalRuntime = 1.06e+00 || funcEvalNum = 500 || <- optx [+1.11e+00 ... -8.24e+00]
+test  4: opty = +3.0611e+07 || runTime = 1.72e+00 || funcEvalRuntime = 1.06e+00 || funcEvalNum = 500 || <- optx [+6.10e+00 ... -5.73e-01]
+$ ------- >>> Summary <<< ------- $:
+* funcName: cfSchwefel12 + testNum: 5 + funcDim: 10000
+* algoName: PSOSpark + algoFuncEvalMax: 500
+opty            --- Mean & Std: 2.68e+07 & 4.87e+06
+runtime         --- Mean & Std: 2.31e+00 & 1.18e+00
+funcEvalRuntime --- Mean & Std: 1.51e+00 & 9.65e-01
+funcEvalRatio   --- Mean & Std:   62.81% &    5.86%
+funcEvalNum     --- Mean & Std: 5.00e+02 & 0.00e+00
+Total run time: 1.19e+01 seconds.
+$ ------- >>> Summary <<< ------- $:
+* funcName: cfSchwefel12 + testNum: 5 + funcDim: 10000
+* algoName: PSO + algoFuncEvalMax: 500
+opty            --- Mean & Std: 3.59e+12 & 9.78e+10 vs. (2.65e+07 & 4.85e+06) [MATLAB]
+runtime         --- Mean & Std: 1.44e+02 & 3.06e+00
+funcEvalRuntime --- Mean & Std: 1.41e+02 & 2.80e+00
+funcEvalRatio   --- Mean & Std:   98.41% &    0.16%
+funcEvalNum     --- Mean & Std: 5.00e+02 & 0.00e+00
+Total run time: 7.19e+02 seconds. vs. 514 [MATLAB]

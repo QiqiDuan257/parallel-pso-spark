@@ -1,0 +1,84 @@
+* funcName: cfSphere + testNum: 3 + funcDim: 30
+* algoName: ALCPSOSpark + algoFuncEvalMax: 200000
+test  0: opty = +2.3442e-149 || runTime = 1.46e+02 || funcEvalRuntime = 1.43e+02 || funcEvalNum = 200000 || <- optx [-1.37e-75 ... -2.87e-76]
+test  1: opty = +9.9267e-27 || runTime = 1.32e+02 || funcEvalRuntime = 1.30e+02 || funcEvalNum = 200024 || <- optx [+1.50e-14 ... +1.10e-21]
+test  2: opty = +1.3176e-26 || runTime = 1.34e+02 || funcEvalRuntime = 1.32e+02 || funcEvalNum = 200011 || <- optx [-5.93e-22 ... +0.00e+00]
+$ ------- >>> Summary <<< ------- $:
+* funcName: cfSphere + testNum: 3 + funcDim: 30
+* algoName: ALCPSOSpark + algoFuncEvalMax: 200000
+opty            --- Mean & Std: 7.70e-27 & 6.86e-27 vs. (1.68e-161 & 8.21e-161) [from the original paper]
+runtime         --- Mean & Std: 1.38e+02 & 7.46e+00
+funcEvalRuntime --- Mean & Std: 1.35e+02 & 7.26e+00
+funcEvalRatio   --- Mean & Std:   97.95% &    0.04%
+funcEvalNum     --- Mean & Std: 2.00e+05 & 1.20e+01
+Total run time: 4.13e+02 seconds.
+
+
+
+* funcName: cfRosenbrock + testNum: 3 + funcDim: 30
+* algoName: ALCPSOSpark + algoFuncEvalMax: 200000
+test  0: opty = +5.4890e-02 || runTime = 1.45e+02 || funcEvalRuntime = 1.42e+02 || funcEvalNum = 200007 || <- optx [+9.98e-01 ... +8.01e-01]
+test  1: opty = +2.1852e+01 || runTime = 1.32e+02 || funcEvalRuntime = 1.29e+02 || funcEvalNum = 200038 || <- optx [+9.82e-01 ... +1.18e-04]
+test  2: opty = +9.5704e-01 || runTime = 1.32e+02 || funcEvalRuntime = 1.30e+02 || funcEvalNum = 200009 || <- optx [+9.93e-01 ... +2.04e-01]
+$ ------- >>> Summary <<< ------- $:
+* funcName: cfRosenbrock + testNum: 3 + funcDim: 30
+* algoName: ALCPSOSpark + algoFuncEvalMax: 200000
+opty            --- Mean & Std: 7.62e+00 & 1.23e+01 vs. (7.61e+00 & 6.66e+00) [from the original paper]
+runtime         --- Mean & Std: 1.36e+02 & 7.64e+00
+funcEvalRuntime --- Mean & Std: 1.34e+02 & 7.39e+00
+funcEvalRatio   --- Mean & Std:   97.97% &    0.07%
+funcEvalNum     --- Mean & Std: 2.00e+05 & 1.73e+01
+Total run time: 4.10e+02 seconds.
+
+
+
+* funcName: cfGriewank + testNum: 3 + funcDim: 30
+* algoName: ALCPSOSpark + algoFuncEvalMax: 200000
+test  0: opty = +4.1768e-02 || runTime = 1.43e+02 || funcEvalRuntime = 1.39e+02 || funcEvalNum = 200050 || <- optx [+7.22e-09 ... -5.50e-08]
+test  1: opty = +1.2316e-02 || runTime = 1.32e+02 || funcEvalRuntime = 1.29e+02 || funcEvalNum = 200000 || <- optx [-3.14e+00 ... +6.50e-07]
+test  2: opty = +7.3960e-03 || runTime = 1.31e+02 || funcEvalRuntime = 1.28e+02 || funcEvalNum = 200027 || <- optx [+3.14e+00 ... +1.98e-08]
+$ ------- >>> Summary <<< ------- $:
+* funcName: cfGriewank + testNum: 3 + funcDim: 30
+* algoName: ALCPSOSpark + algoFuncEvalMax: 200000
+opty            --- Mean & Std: 2.05e-02 & 1.86e-02 vs. (1.22e-02 & 1.58e-02) [from the original paper]
+runtime         --- Mean & Std: 1.35e+02 & 6.49e+00
+funcEvalRuntime --- Mean & Std: 1.32e+02 & 6.27e+00
+funcEvalRatio   --- Mean & Std:   97.87% &    0.07%
+funcEvalNum     --- Mean & Std: 2.00e+05 & 2.50e+01
+Total run time: 4.06e+02 seconds.
+
+
+
+* funcName: cfRastrigin + testNum: 3 + funcDim: 30
+* algoName: ALCPSOSpark + algoFuncEvalMax: 200000
+test  0: opty = +1.7764e-15 || runTime = 1.42e+02 || funcEvalRuntime = 1.39e+02 || funcEvalNum = 200033 || <- optx [-1.03e-10 ... -4.20e-10]
+test  1: opty = +8.8818e-15 || runTime = 1.31e+02 || funcEvalRuntime = 1.29e+02 || funcEvalNum = 200054 || <- optx [-3.38e-10 ... +2.53e-09]
+test  2: opty = +7.1054e-15 || runTime = 1.32e+02 || funcEvalRuntime = 1.29e+02 || funcEvalNum = 200048 || <- optx [+1.59e-09 ... -9.62e-10]
+$ ------- >>> Summary <<< ------- $:
+* funcName: cfRastrigin + testNum: 3 + funcDim: 30
+* algoName: ALCPSOSpark + algoFuncEvalMax: 200000
+opty            --- Mean & Std: 5.92e-15 & 3.70e-15 vs. (2.53e-14 & 1.38e-14) [from the original paper]
+runtime         --- Mean & Std: 1.35e+02 & 6.22e+00
+funcEvalRuntime --- Mean & Std: 1.32e+02 & 6.01e+00
+funcEvalRatio   --- Mean & Std:   97.87% &    0.06%
+funcEvalNum     --- Mean & Std: 2.00e+05 & 1.08e+01
+Total run time: 4.06e+02 seconds.
+
+
+
+* funcName: cfSchwefel12 + testNum: 5 + funcDim: 10000
+* algoName: ALCPSOSpark + algoFuncEvalMax: 500
+test  0: opty = +5.8363e+07 || runTime = 4.41e+00 || funcEvalRuntime = 3.18e+00 || funcEvalNum = 500 || <- optx [-5.63e+00 ... +3.84e+00]
+test  1: opty = +6.3085e+07 || runTime = 1.79e+00 || funcEvalRuntime = 1.19e+00 || funcEvalNum = 500 || <- optx [-1.00e+01 ... -4.26e-01]
+test  2: opty = +6.0639e+07 || runTime = 1.83e+00 || funcEvalRuntime = 1.09e+00 || funcEvalNum = 500 || <- optx [-2.38e+00 ... -1.38e+00]
+test  3: opty = +5.0577e+07 || runTime = 1.68e+00 || funcEvalRuntime = 1.07e+00 || funcEvalNum = 500 || <- optx [-9.46e-01 ... +1.00e+01]
+test  4: opty = +4.8149e+07 || runTime = 1.64e+00 || funcEvalRuntime = 1.07e+00 || funcEvalNum = 500 || <- optx [-7.11e+00 ... -9.05e+00]
+$ ------- >>> Summary <<< ------- $:
+* funcName: cfSchwefel12 + testNum: 5 + funcDim: 10000
+* algoName: ALCPSOSpark + algoFuncEvalMax: 500
+opty            --- Mean & Std: 5.62e+07 & 6.49e+06
+runtime         --- Mean & Std: 2.27e+00 & 1.20e+00
+funcEvalRuntime --- Mean & Std: 1.52e+00 & 9.29e-01
+funcEvalRatio   --- Mean & Std:   65.35% &    4.48%
+funcEvalNum     --- Mean & Std: 5.00e+02 & 0.00e+00
+Total run time: 1.17e+01 seconds. vs. 434 [MATLAB]

@@ -1,0 +1,330 @@
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+ 
+**************************************************
+* func_name: cf_sphere + test_num: 3 + func_dim: 1000000
+* algo_name: CLPSO + algo_fe_max: 1000
+test  1: opt_y = +2.7329e+07 || runtime = 7.30e+01 || fe_runtime = 6.91e+00 || fe_num = 1000 <- opt_x [-4.31e+00 ... -9.85e-03]
+test  2: opt_y = +2.7353e+07 || runtime = 7.37e+01 || fe_runtime = 6.69e+00 || fe_num = 1000 <- opt_x [-5.65e+00 ... +4.93e+00]
+test  3: opt_y = +2.7318e+07 || runtime = 7.55e+01 || fe_runtime = 7.20e+00 || fe_num = 1000 <- opt_x [-4.26e+00 ... +2.62e+00]
+$------- Summary -------$:
+* func_name: cf_sphere + test_num: 3 + func_dim: 1000000
+* algo_name: CLPSO + algo_fe_max: 1000
+   opt_y      --- Mean & Std: 2.73e+07  &  1.77e+04
+   runtime    --- Mean & Std: 7.41e+01  &  1.27e+00
+   fe_runtime --- Mean & Std: 6.94e+00  &  2.56e-01
+   fe_ratio   --- Mean & Std:    9.37%  &     0.00%
+   fe_num     --- Mean & Std: 1.00e+03  &  0.00e+00
+Total run time: 223.221650 seconds.
+
+
+* func_name: cf_sphere + test_num: 3 + func_dim: 1000000
+* algo_name: CLPSO + algo_fe_max: 2000
+test  1: opt_y = +2.4060e+07 || runtime = 1.36e+02 || fe_runtime = 9.77e+00 || fe_num = 2000 <- opt_x [-8.21e+00 ... +4.09e+00]
+test  2: opt_y = +2.4077e+07 || runtime = 1.40e+02 || fe_runtime = 1.07e+01 || fe_num = 2000 <- opt_x [-2.81e+00 ... +2.10e+00]
+test  3: opt_y = +2.4083e+07 || runtime = 1.40e+02 || fe_runtime = 1.04e+01 || fe_num = 2000 <- opt_x [-5.06e+00 ... +5.24e+00]
+$------- Summary -------$:
+* func_name: cf_sphere + test_num: 3 + func_dim: 1000000
+* algo_name: CLPSO + algo_fe_max: 2000
+   opt_y      --- Mean & Std: 2.41e+07  &  1.20e+04
+   runtime    --- Mean & Std: 1.38e+02  &  2.13e+00
+   fe_runtime --- Mean & Std: 1.03e+01  &  4.71e-01
+   fe_ratio   --- Mean & Std:    7.44%  &     0.00%
+   fe_num     --- Mean & Std: 2.00e+03  &  0.00e+00
+Total run time: 416.174728 seconds.
+
+
+* func_name: cf_sphere + test_num: 3 + func_dim: 1000000
+* algo_name: CLPSO + algo_fe_max: 3000
+test  1: opt_y = +2.1464e+07 || runtime = 2.10e+02 || fe_runtime = 1.64e+01 || fe_num = 3000 <- opt_x [-9.32e+00 ... +5.34e+00]
+test  2: opt_y = +2.1467e+07 || runtime = 2.06e+02 || fe_runtime = 1.50e+01 || fe_num = 3000 <- opt_x [+5.53e-01 ... +6.43e+00]
+test  3: opt_y = +2.1471e+07 || runtime = 2.10e+02 || fe_runtime = 1.59e+01 || fe_num = 3000 <- opt_x [+1.00e+01 ... -4.15e+00]
+$------- Summary -------$:
+* func_name: cf_sphere + test_num: 3 + func_dim: 1000000
+* algo_name: CLPSO + algo_fe_max: 3000
+   opt_y      --- Mean & Std: 2.15e+07  &  3.27e+03
+   runtime    --- Mean & Std: 2.08e+02  &  2.37e+00
+   fe_runtime --- Mean & Std: 1.58e+01  &  7.17e-01
+   fe_ratio   --- Mean & Std:    7.57%  &     0.00%
+   fe_num     --- Mean & Std: 3.00e+03  &  0.00e+00
+Total run time: 626.095681 seconds.
+
+
+* func_name: cf_sphere + test_num: 3 + func_dim: 1000000
+* algo_name: CLPSO + algo_fe_max: 4000
+test  1: opt_y = +1.9716e+07 || runtime = 2.91e+02 || fe_runtime = 1.99e+01 || fe_num = 4000 <- opt_x [-6.21e+00 ... -2.57e+00]
+test  2: opt_y = +1.9730e+07 || runtime = 2.93e+02 || fe_runtime = 2.01e+01 || fe_num = 4000 <- opt_x [-2.56e+00 ... +7.13e+00]
+test  3: opt_y = +1.9783e+07 || runtime = 2.88e+02 || fe_runtime = 1.90e+01 || fe_num = 4000 <- opt_x [+3.44e+00 ... +4.10e+00]
+$------- Summary -------$:
+* func_name: cf_sphere + test_num: 3 + func_dim: 1000000
+* algo_name: CLPSO + algo_fe_max: 4000
+   opt_y      --- Mean & Std: 1.97e+07  &  3.52e+04
+   runtime    --- Mean & Std: 2.90e+02  &  2.40e+00
+   fe_runtime --- Mean & Std: 1.97e+01  &  5.81e-01
+   fe_ratio   --- Mean & Std:    6.77%  &     0.00%
+   fe_num     --- Mean & Std: 4.00e+03  &  0.00e+00
+Total run time: 872.081118 seconds.
+
+
+* func_name: cf_sphere + test_num: 3 + func_dim: 1000000
+* algo_name: CLPSO + algo_fe_max: 5000
+test  1: opt_y = +1.7253e+07 || runtime = 3.61e+02 || fe_runtime = 2.42e+01 || fe_num = 5000 <- opt_x [+6.88e+00 ... -2.26e+00]
+test  2: opt_y = +1.7285e+07 || runtime = 3.57e+02 || fe_runtime = 2.30e+01 || fe_num = 5000 <- opt_x [+8.15e-01 ... -1.33e+00]
+test  3: opt_y = +1.7236e+07 || runtime = 3.62e+02 || fe_runtime = 2.42e+01 || fe_num = 5000 <- opt_x [+9.37e-01 ... -1.80e+00]
+$------- Summary -------$:
+* func_name: cf_sphere + test_num: 3 + func_dim: 1000000
+* algo_name: CLPSO + algo_fe_max: 5000
+   opt_y      --- Mean & Std: 1.73e+07  &  2.48e+04
+   runtime    --- Mean & Std: 3.60e+02  &  2.90e+00
+   fe_runtime --- Mean & Std: 2.38e+01  &  6.99e-01
+   fe_ratio   --- Mean & Std:    6.61%  &     0.00%
+   fe_num     --- Mean & Std: 5.00e+03  &  0.00e+00
+Total run time: 1080.594428 seconds.
+
+
+**************************************************
+* func_name: cf_rosenbrock + test_num: 3 + func_dim: 1000000
+* algo_name: CLPSO + algo_fe_max: 1000
+test  1: opt_y = +1.5201e+11 || runtime = 8.20e+01 || fe_runtime = 1.68e+01 || fe_num = 1000 <- opt_x [-8.20e+00 ... +2.60e-01]
+test  2: opt_y = +1.5222e+11 || runtime = 8.25e+01 || fe_runtime = 1.70e+01 || fe_num = 1000 <- opt_x [-5.73e+00 ... +7.60e+00]
+test  3: opt_y = +1.5182e+11 || runtime = 7.75e+01 || fe_runtime = 1.58e+01 || fe_num = 1000 <- opt_x [-4.41e+00 ... +1.61e+00]
+$------- Summary -------$:
+* func_name: cf_rosenbrock + test_num: 3 + func_dim: 1000000
+* algo_name: CLPSO + algo_fe_max: 1000
+   opt_y      --- Mean & Std: 1.52e+11  &  1.99e+08
+   runtime    --- Mean & Std: 8.07e+01  &  2.77e+00
+   fe_runtime --- Mean & Std: 1.65e+01  &  6.27e-01
+   fe_ratio   --- Mean & Std:   20.45%  &     0.00%
+   fe_num     --- Mean & Std: 1.00e+03  &  0.00e+00
+Total run time: 242.722264 seconds.
+
+
+* func_name: cf_rosenbrock + test_num: 3 + func_dim: 1000000
+* algo_name: CLPSO + algo_fe_max: 2000
+test  1: opt_y = +1.2520e+11 || runtime = 1.63e+02 || fe_runtime = 3.38e+01 || fe_num = 2000 <- opt_x [+6.00e+00 ... +4.32e+00]
+test  2: opt_y = +1.2508e+11 || runtime = 1.59e+02 || fe_runtime = 3.31e+01 || fe_num = 2000 <- opt_x [-4.51e+00 ... -6.80e+00]
+test  3: opt_y = +1.2525e+11 || runtime = 1.62e+02 || fe_runtime = 3.36e+01 || fe_num = 2000 <- opt_x [-9.87e+00 ... +7.46e+00]
+$------- Summary -------$:
+* func_name: cf_rosenbrock + test_num: 3 + func_dim: 1000000
+* algo_name: CLPSO + algo_fe_max: 2000
+   opt_y      --- Mean & Std: 1.25e+11  &  8.60e+07
+   runtime    --- Mean & Std: 1.62e+02  &  2.14e+00
+   fe_runtime --- Mean & Std: 3.35e+01  &  3.61e-01
+   fe_ratio   --- Mean & Std:   20.75%  &     0.00%
+   fe_num     --- Mean & Std: 2.00e+03  &  0.00e+00
+Total run time: 485.352930 seconds.
+
+
+* func_name: cf_rosenbrock + test_num: 3 + func_dim: 1000000
+* algo_name: CLPSO + algo_fe_max: 3000
+test  1: opt_y = +1.0551e+11 || runtime = 2.40e+02 || fe_runtime = 5.00e+01 || fe_num = 3000 <- opt_x [-5.20e+00 ... -5.56e+00]
+test  2: opt_y = +1.0536e+11 || runtime = 2.39e+02 || fe_runtime = 4.94e+01 || fe_num = 3000 <- opt_x [+5.89e+00 ... +4.69e+00]
+test  3: opt_y = +1.0558e+11 || runtime = 2.42e+02 || fe_runtime = 5.02e+01 || fe_num = 3000 <- opt_x [-4.63e+00 ... +4.80e+00]
+$------- Summary -------$:
+* func_name: cf_rosenbrock + test_num: 3 + func_dim: 1000000
+* algo_name: CLPSO + algo_fe_max: 3000
+   opt_y      --- Mean & Std: 1.05e+11  &  1.12e+08
+   runtime    --- Mean & Std: 2.40e+02  &  1.94e+00
+   fe_runtime --- Mean & Std: 4.99e+01  &  4.22e-01
+   fe_ratio   --- Mean & Std:   20.74%  &     0.00%
+   fe_num     --- Mean & Std: 3.00e+03  &  0.00e+00
+Total run time: 721.959467 seconds.
+
+
+* func_name: cf_rosenbrock + test_num: 3 + func_dim: 1000000
+* algo_name: CLPSO + algo_fe_max: 4000
+test  1: opt_y = +9.2073e+10 || runtime = 3.34e+02 || fe_runtime = 6.59e+01 || fe_num = 4000 <- opt_x [+1.10e+00 ... +4.77e+00]
+test  2: opt_y = +9.2546e+10 || runtime = 3.35e+02 || fe_runtime = 6.57e+01 || fe_num = 4000 <- opt_x [-3.37e+00 ... +2.62e-01]
+test  3: opt_y = +9.2426e+10 || runtime = 3.34e+02 || fe_runtime = 6.57e+01 || fe_num = 4000 <- opt_x [+5.08e-01 ... -5.34e-02]
+$------- Summary -------$:
+* func_name: cf_rosenbrock + test_num: 3 + func_dim: 1000000
+* algo_name: CLPSO + algo_fe_max: 4000
+   opt_y      --- Mean & Std: 9.23e+10  &  2.46e+08
+   runtime    --- Mean & Std: 3.34e+02  &  3.95e-01
+   fe_runtime --- Mean & Std: 6.58e+01  &  1.36e-01
+   fe_ratio   --- Mean & Std:   19.67%  &     0.00%
+   fe_num     --- Mean & Std: 4.00e+03  &  0.00e+00
+Total run time: 1004.039395 seconds.
+
+
+* func_name: cf_rosenbrock + test_num: 3 + func_dim: 1000000
+* algo_name: CLPSO + algo_fe_max: 5000
+test  1: opt_y = +7.3207e+10 || runtime = 4.15e+02 || fe_runtime = 8.16e+01 || fe_num = 5000 <- opt_x [-1.65e+00 ... -3.66e+00]
+test  2: opt_y = +7.3397e+10 || runtime = 4.20e+02 || fe_runtime = 8.24e+01 || fe_num = 5000 <- opt_x [-2.81e+00 ... -3.87e+00]
+test  3: opt_y = +7.3330e+10 || runtime = 4.20e+02 || fe_runtime = 8.28e+01 || fe_num = 5000 <- opt_x [-1.43e+00 ... -1.88e+00]
+$------- Summary -------$:
+* func_name: cf_rosenbrock + test_num: 3 + func_dim: 1000000
+* algo_name: CLPSO + algo_fe_max: 5000
+   opt_y      --- Mean & Std: 7.33e+10  &  9.60e+07
+   runtime    --- Mean & Std: 4.18e+02  &  2.83e+00
+   fe_runtime --- Mean & Std: 8.23e+01  &  6.03e-01
+   fe_ratio   --- Mean & Std:   19.67%  &     0.00%
+   fe_num     --- Mean & Std: 5.00e+03  &  0.00e+00
+Total run time: 1255.534575 seconds.
+
+
+**************************************************
+* func_name: cf_rastrigin + test_num: 3 + func_dim: 1000000
+* algo_name: CLPSO + algo_fe_max: 1000
+test  1: opt_y = +3.7181e+07 || runtime = 7.29e+01 || fe_runtime = 7.71e+00 || fe_num = 1000 <- opt_x [-4.24e+00 ... -4.11e-01]
+test  2: opt_y = +3.7236e+07 || runtime = 7.20e+01 || fe_runtime = 7.29e+00 || fe_num = 1000 <- opt_x [-5.03e+00 ... +6.48e+00]
+test  3: opt_y = +3.7170e+07 || runtime = 7.33e+01 || fe_runtime = 7.50e+00 || fe_num = 1000 <- opt_x [-2.92e+00 ... +6.11e+00]
+$------- Summary -------$:
+* func_name: cf_rastrigin + test_num: 3 + func_dim: 1000000
+* algo_name: CLPSO + algo_fe_max: 1000
+   opt_y      --- Mean & Std: 3.72e+07  &  3.51e+04
+   runtime    --- Mean & Std: 7.27e+01  &  6.62e-01
+   fe_runtime --- Mean & Std: 7.50e+00  &  2.11e-01
+   fe_ratio   --- Mean & Std:   10.32%  &     0.00%
+   fe_num     --- Mean & Std: 1.00e+03  &  0.00e+00
+Total run time: 218.906921 seconds.
+
+
+* func_name: cf_rastrigin + test_num: 3 + func_dim: 1000000
+* algo_name: CLPSO + algo_fe_max: 2000
+test  1: opt_y = +3.3930e+07 || runtime = 1.40e+02 || fe_runtime = 1.40e+01 || fe_num = 2000 <- opt_x [-8.52e+00 ... -6.67e-01]
+test  2: opt_y = +3.3915e+07 || runtime = 1.44e+02 || fe_runtime = 1.47e+01 || fe_num = 2000 <- opt_x [-5.39e-01 ... +7.36e+00]
+test  3: opt_y = +3.3968e+07 || runtime = 1.45e+02 || fe_runtime = 1.48e+01 || fe_num = 2000 <- opt_x [+2.89e-01 ... +1.65e+00]
+$------- Summary -------$:
+* func_name: cf_rastrigin + test_num: 3 + func_dim: 1000000
+* algo_name: CLPSO + algo_fe_max: 2000
+   opt_y      --- Mean & Std: 3.39e+07  &  2.74e+04
+   runtime    --- Mean & Std: 1.43e+02  &  2.80e+00
+   fe_runtime --- Mean & Std: 1.45e+01  &  4.11e-01
+   fe_ratio   --- Mean & Std:   10.13%  &     0.00%
+   fe_num     --- Mean & Std: 2.00e+03  &  0.00e+00
+Total run time: 429.565945 seconds.
+
+
+* func_name: cf_rastrigin + test_num: 3 + func_dim: 1000000
+* algo_name: CLPSO + algo_fe_max: 3000
+test  1: opt_y = +3.1296e+07 || runtime = 2.12e+02 || fe_runtime = 2.14e+01 || fe_num = 3000 <- opt_x [-6.53e+00 ... -4.26e+00]
+test  2: opt_y = +3.1287e+07 || runtime = 2.10e+02 || fe_runtime = 2.08e+01 || fe_num = 3000 <- opt_x [-4.66e+00 ... +5.55e+00]
+test  3: opt_y = +3.1267e+07 || runtime = 2.13e+02 || fe_runtime = 2.16e+01 || fe_num = 3000 <- opt_x [+7.26e-01 ... +3.92e+00]
+$------- Summary -------$:
+* func_name: cf_rastrigin + test_num: 3 + func_dim: 1000000
+* algo_name: CLPSO + algo_fe_max: 3000
+   opt_y      --- Mean & Std: 3.13e+07  &  1.51e+04
+   runtime    --- Mean & Std: 2.12e+02  &  1.24e+00
+   fe_runtime --- Mean & Std: 2.13e+01  &  4.12e-01
+   fe_ratio   --- Mean & Std:   10.03%  &     0.00%
+   fe_num     --- Mean & Std: 3.00e+03  &  0.00e+00
+Total run time: 636.383520 seconds.
+
+
+* func_name: cf_rastrigin + test_num: 3 + func_dim: 1000000
+* algo_name: CLPSO + algo_fe_max: 4000
+test  1: opt_y = +2.9585e+07 || runtime = 2.92e+02 || fe_runtime = 2.69e+01 || fe_num = 4000 <- opt_x [+6.40e-01 ... -2.91e+00]
+test  2: opt_y = +2.9616e+07 || runtime = 2.93e+02 || fe_runtime = 2.72e+01 || fe_num = 4000 <- opt_x [+1.69e+00 ... +2.92e+00]
+test  3: opt_y = +2.9620e+07 || runtime = 2.92e+02 || fe_runtime = 2.69e+01 || fe_num = 4000 <- opt_x [-4.52e+00 ... -3.54e+00]
+$------- Summary -------$:
+* func_name: cf_rastrigin + test_num: 3 + func_dim: 1000000
+* algo_name: CLPSO + algo_fe_max: 4000
+   opt_y      --- Mean & Std: 2.96e+07  &  1.94e+04
+   runtime    --- Mean & Std: 2.92e+02  &  5.29e-01
+   fe_runtime --- Mean & Std: 2.70e+01  &  1.80e-01
+   fe_ratio   --- Mean & Std:    9.23%  &     0.00%
+   fe_num     --- Mean & Std: 4.00e+03  &  0.00e+00
+Total run time: 877.970535 seconds.
+
+
+* func_name: cf_rastrigin + test_num: 3 + func_dim: 1000000
+* algo_name: CLPSO + algo_fe_max: 5000
+test  1: opt_y = +2.7197e+07 || runtime = 3.65e+02 || fe_runtime = 3.23e+01 || fe_num = 5000 <- opt_x [+3.39e+00 ... -5.91e+00]
+test  2: opt_y = +2.7229e+07 || runtime = 3.67e+02 || fe_runtime = 3.30e+01 || fe_num = 5000 <- opt_x [-1.27e+00 ... +7.36e-01]
+test  3: opt_y = +2.7178e+07 || runtime = 3.77e+02 || fe_runtime = 3.49e+01 || fe_num = 5000 <- opt_x [-1.14e+00 ... +3.17e-01]
+$------- Summary -------$:
+* func_name: cf_rastrigin + test_num: 3 + func_dim: 1000000
+* algo_name: CLPSO + algo_fe_max: 5000
+   opt_y      --- Mean & Std: 2.72e+07  &  2.57e+04
+   runtime    --- Mean & Std: 3.70e+02  &  6.22e+00
+   fe_runtime --- Mean & Std: 3.34e+01  &  1.38e+00
+   fe_ratio   --- Mean & Std:    9.03%  &     0.00%
+   fe_num     --- Mean & Std: 5.00e+03  &  0.00e+00
+Total run time: 1109.660117 seconds.
+
+
+**************************************************
+* func_name: cf_griewank + test_num: 3 + func_dim: 1000000
+* algo_name: CLPSO + algo_fe_max: 1000
+test  1: opt_y = +6.8367e+03 || runtime = 7.19e+01 || fe_runtime = 8.28e+00 || fe_num = 1000 <- opt_x [-5.15e+00 ... +5.24e-01]
+test  2: opt_y = +6.8409e+03 || runtime = 7.36e+01 || fe_runtime = 8.35e+00 || fe_num = 1000 <- opt_x [-5.84e+00 ... +6.94e+00]
+test  3: opt_y = +6.8340e+03 || runtime = 7.07e+01 || fe_runtime = 7.67e+00 || fe_num = 1000 <- opt_x [-4.21e+00 ... +5.92e+00]
+$------- Summary -------$:
+* func_name: cf_griewank + test_num: 3 + func_dim: 1000000
+* algo_name: CLPSO + algo_fe_max: 1000
+   opt_y      --- Mean & Std: 6.84e+03  &  3.48e+00
+   runtime    --- Mean & Std: 7.20e+01  &  1.49e+00
+   fe_runtime --- Mean & Std: 8.10e+00  &  3.71e-01
+   fe_ratio   --- Mean & Std:   11.25%  &     0.00%
+   fe_num     --- Mean & Std: 1.00e+03  &  0.00e+00
+Total run time: 216.798650 seconds.
+
+
+* func_name: cf_griewank + test_num: 3 + func_dim: 1000000
+* algo_name: CLPSO + algo_fe_max: 2000
+test  1: opt_y = +6.0218e+03 || runtime = 1.46e+02 || fe_runtime = 1.61e+01 || fe_num = 2000 <- opt_x [-4.01e+00 ... -7.77e-01]
+test  2: opt_y = +6.0357e+03 || runtime = 1.42e+02 || fe_runtime = 1.56e+01 || fe_num = 2000 <- opt_x [-6.15e+00 ... +7.35e+00]
+test  3: opt_y = +6.0248e+03 || runtime = 1.45e+02 || fe_runtime = 1.63e+01 || fe_num = 2000 <- opt_x [+2.47e+00 ... +8.00e+00]
+$------- Summary -------$:
+* func_name: cf_griewank + test_num: 3 + func_dim: 1000000
+* algo_name: CLPSO + algo_fe_max: 2000
+   opt_y      --- Mean & Std: 6.03e+03  &  7.30e+00
+   runtime    --- Mean & Std: 1.44e+02  &  1.88e+00
+   fe_runtime --- Mean & Std: 1.60e+01  &  3.62e-01
+   fe_ratio   --- Mean & Std:   11.11%  &     0.00%
+   fe_num     --- Mean & Std: 2.00e+03  &  0.00e+00
+Total run time: 432.771552 seconds.
+
+
+* func_name: cf_griewank + test_num: 3 + func_dim: 1000000
+* algo_name: CLPSO + algo_fe_max: 3000
+test  1: opt_y = +5.3675e+03 || runtime = 2.16e+02 || fe_runtime = 2.43e+01 || fe_num = 3000 <- opt_x [-4.74e+00 ... +2.20e+00]
+test  2: opt_y = +5.3638e+03 || runtime = 2.14e+02 || fe_runtime = 2.32e+01 || fe_num = 3000 <- opt_x [+8.06e-01 ... +4.52e+00]
+test  3: opt_y = +5.3696e+03 || runtime = 2.12e+02 || fe_runtime = 2.30e+01 || fe_num = 3000 <- opt_x [+1.44e-01 ... +3.34e+00]
+$------- Summary -------$:
+* func_name: cf_griewank + test_num: 3 + func_dim: 1000000
+* algo_name: CLPSO + algo_fe_max: 3000
+   opt_y      --- Mean & Std: 5.37e+03  &  2.94e+00
+   runtime    --- Mean & Std: 2.14e+02  &  2.19e+00
+   fe_runtime --- Mean & Std: 2.35e+01  &  7.28e-01
+   fe_ratio   --- Mean & Std:   10.99%  &     0.00%
+   fe_num     --- Mean & Std: 3.00e+03  &  0.00e+00
+Total run time: 642.817889 seconds.
+
+
+* func_name: cf_griewank + test_num: 3 + func_dim: 1000000
+* algo_name: CLPSO + algo_fe_max: 4000
+test  1: opt_y = +4.9365e+03 || runtime = 3.03e+02 || fe_runtime = 3.24e+01 || fe_num = 4000 <- opt_x [-4.63e+00 ... -3.40e+00]
+test  2: opt_y = +4.9299e+03 || runtime = 2.95e+02 || fe_runtime = 2.88e+01 || fe_num = 4000 <- opt_x [-8.25e+00 ... +3.40e+00]
+test  3: opt_y = +4.9419e+03 || runtime = 3.05e+02 || fe_runtime = 3.26e+01 || fe_num = 4000 <- opt_x [-4.94e+00 ... +7.08e+00]
+$------- Summary -------$:
+* func_name: cf_griewank + test_num: 3 + func_dim: 1000000
+* algo_name: CLPSO + algo_fe_max: 4000
+   opt_y      --- Mean & Std: 4.94e+03  &  5.99e+00
+   runtime    --- Mean & Std: 3.01e+02  &  5.17e+00
+   fe_runtime --- Mean & Std: 3.13e+01  &  2.12e+00
+   fe_ratio   --- Mean & Std:   10.39%  &     0.00%
+   fe_num     --- Mean & Std: 4.00e+03  &  0.00e+00
+Total run time: 904.161382 seconds.
+
+
+* func_name: cf_griewank + test_num: 3 + func_dim: 1000000
+* algo_name: CLPSO + algo_fe_max: 5000
+test  1: opt_y = +4.3130e+03 || runtime = 3.73e+02 || fe_runtime = 3.81e+01 || fe_num = 5000 <- opt_x [-8.04e+00 ... -2.54e+00]
+test  2: opt_y = +4.3173e+03 || runtime = 3.80e+02 || fe_runtime = 3.98e+01 || fe_num = 5000 <- opt_x [+1.98e+00 ... +4.74e+00]
+test  3: opt_y = +4.3195e+03 || runtime = 3.80e+02 || fe_runtime = 4.00e+01 || fe_num = 5000 <- opt_x [+2.89e+00 ... -2.15e+00]
+$------- Summary -------$:
+* func_name: cf_griewank + test_num: 3 + func_dim: 1000000
+* algo_name: CLPSO + algo_fe_max: 5000
+   opt_y      --- Mean & Std: 4.32e+03  &  3.30e+00
+   runtime    --- Mean & Std: 3.78e+02  &  3.87e+00
+   fe_runtime --- Mean & Std: 3.93e+01  &  1.08e+00
+   fe_ratio   --- Mean & Std:   10.40%  &     0.00%
+   fe_num     --- Mean & Std: 5.00e+03  &  0.00e+00
+Total run time: 1134.677377 seconds.
+
+
+Run Time: 13531.516145 seconds.

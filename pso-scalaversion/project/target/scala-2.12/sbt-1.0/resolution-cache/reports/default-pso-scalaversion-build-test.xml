@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="pso-scalaversion-build"
+		revision="0.1.0-SNAPSHOT"
+		extra-scalaVersion="2.12"
+		extra-sbtVersion="1.0"
+		conf="test"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
+		date="20180323221441"/>
+	<dependencies>
+		<module organisation="com.artima.supersafe" name="sbtplugin">
+			<revision name="1.1.3" status="release" pubdate="20171114231500" resolver="Artima Maven Repository" artresolver="Artima Maven Repository" homepage="" extra-scalaVersion="2.12" extra-sbtVersion="1.0" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+				<metadata-artifact status="successful" details="" size="1421" time="740" location="C:\Users\syhdqq\.ivy2\cache\scala_2.12\sbt_1.0\com.artima.supersafe\sbtplugin\ivy-1.1.3.xml" searched="true" original-local-location="C:\Users\syhdqq\.ivy2\cache\scala_2.12\sbt_1.0\com.artima.supersafe\sbtplugin\ivy-1.1.3.xml.original" origin-is-local="false" origin-location="http://repo.artima.com/releases/com/artima/supersafe/sbtplugin_2.12_1.0/1.1.3/sbtplugin-1.1.3.pom"/>
+				<caller organisation="default" name="pso-scalaversion-build" conf="test, compile, runtime" rev="1.1.3" rev-constraint-default="1.1.3" rev-constraint-dynamic="1.1.3" callerrev="0.1.0-SNAPSHOT" extra-scalaVersion="2.12" extra-sbtVersion="1.0"/>
+				<artifacts>
+					<artifact name="sbtplugin" type="jar" ext="jar" status="successful" details="" size="7591" time="920" location="C:\Users\syhdqq\.ivy2\cache\scala_2.12\sbt_1.0\com.artima.supersafe\sbtplugin\jars\sbtplugin-1.1.3.jar">
+						<origin-location is-local="false" location="http://repo.artima.com/releases/com/artima/supersafe/sbtplugin_2.12_1.0/1.1.3/sbtplugin-1.1.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-sbt" name="global-plugins">
+			<revision name="0.0" status="integration" pubdate="20180323221434" resolver="inter-project" artresolver="inter-project" extra-scalaVersion="2.12" extra-sbtVersion="1.0" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="0">
+				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
+				<caller organisation="default" name="pso-scalaversion-build" conf="test, compile, runtime" rev="0.0" rev-constraint-default="0.0" rev-constraint-dynamic="0.0" callerrev="0.1.0-SNAPSHOT" extra-scalaVersion="2.12" extra-sbtVersion="1.0"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

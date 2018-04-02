@@ -1,0 +1,86 @@
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+* func_name: cf_schwefel12 + test_num: 3 + func_dim: 100000
+* algo_name: ALCPSO + algo_fe_max: 1000
+test  1: opt_y = +3.1610e+09 || runtime = 1.42e+04 || fe_runtime = 1.42e+04 || fe_num = 1000 <- opt_x [+4.87e-01 ... +5.95e+00]
+test  2: opt_y = +3.2683e+09 || runtime = 1.42e+04 || fe_runtime = 1.42e+04 || fe_num = 1000 <- opt_x [+5.00e+00 ... -8.68e+00]
+test  3: opt_y = +3.3690e+09 || runtime = 1.41e+04 || fe_runtime = 1.41e+04 || fe_num = 1000 <- opt_x [-1.76e+00 ... +6.91e+00]
+$------- Summary -------$:
+* func_name: cf_schwefel12 + test_num: 3 + func_dim: 100000
+* algo_name: ALCPSO + algo_fe_max: 1000
+   opt_y      --- Mean & Std: 3.27e+09  &  1.04e+08
+   runtime    --- Mean & Std: 1.42e+04  &  3.91e+01
+   fe_runtime --- Mean & Std: 1.42e+04  &  3.91e+01
+   fe_ratio   --- Mean & Std:   99.97%  &     0.00%
+   fe_num     --- Mean & Std: 1.00e+03  &  0.00e+00
+Total run time: 42514.753385 seconds.
+
+
+* func_name: cf_schwefel12 + test_num: 3 + func_dim: 100000
+* algo_name: ALCPSO + algo_fe_max: 2000
+test  1: opt_y = +1.8424e+09 || runtime = 2.86e+04 || fe_runtime = 2.86e+04 || fe_num = 2000 <- opt_x [+3.87e+00 ... +3.31e+00]
+test  2: opt_y = +2.4076e+09 || runtime = 2.90e+04 || fe_runtime = 2.90e+04 || fe_num = 2000 <- opt_x [-1.00e+01 ... +6.50e+00]
+test  3: opt_y = +3.1607e+09 || runtime = 2.91e+04 || fe_runtime = 2.91e+04 || fe_num = 2000 <- opt_x [+9.22e+00 ... -7.92e-02]
+$------- Summary -------$:
+* func_name: cf_schwefel12 + test_num: 3 + func_dim: 100000
+* algo_name: ALCPSO + algo_fe_max: 2000
+   opt_y      --- Mean & Std: 2.47e+09  &  6.61e+08
+   runtime    --- Mean & Std: 2.89e+04  &  2.39e+02
+   fe_runtime --- Mean & Std: 2.89e+04  &  2.39e+02
+   fe_ratio   --- Mean & Std:   99.97%  &     0.00%
+   fe_num     --- Mean & Std: 2.00e+03  &  0.00e+00
+Total run time: 86726.682753 seconds.
+
+
+* func_name: cf_schwefel12 + test_num: 3 + func_dim: 100000
+* algo_name: ALCPSO + algo_fe_max: 3000
+test  1: opt_y = +2.3584e+09 || runtime = 4.42e+04 || fe_runtime = 4.42e+04 || fe_num = 3000 <- opt_x [-8.64e+00 ... -4.92e+00]
+test  2: opt_y = +2.5203e+09 || runtime = 4.40e+04 || fe_runtime = 4.40e+04 || fe_num = 3000 <- opt_x [+1.58e+00 ... -2.40e+00]
+test  3: opt_y = +2.8829e+09 || runtime = 4.41e+04 || fe_runtime = 4.41e+04 || fe_num = 3000 <- opt_x [-5.17e-01 ... -3.23e+00]
+$------- Summary -------$:
+* func_name: cf_schwefel12 + test_num: 3 + func_dim: 100000
+* algo_name: ALCPSO + algo_fe_max: 3000
+   opt_y      --- Mean & Std: 2.59e+09  &  2.69e+08
+   runtime    --- Mean & Std: 4.41e+04  &  1.24e+02
+   fe_runtime --- Mean & Std: 4.41e+04  &  1.25e+02
+   fe_ratio   --- Mean & Std:   99.97%  &     0.00%
+   fe_num     --- Mean & Std: 3.00e+03  &  0.00e+00
+Total run time: 132349.355302 seconds.
+
+
+* func_name: cf_schwefel12 + test_num: 3 + func_dim: 100000
+* algo_name: ALCPSO + algo_fe_max: 4000
+test  1: opt_y = +2.2896e+09 || runtime = 5.90e+04 || fe_runtime = 5.90e+04 || fe_num = 4000 <- opt_x [+2.55e-02 ... -6.24e-01]
+test  2: opt_y = +1.9998e+09 || runtime = 5.83e+04 || fe_runtime = 5.82e+04 || fe_num = 4000 <- opt_x [-7.56e+00 ... -4.17e+00]
+test  3: opt_y = +2.3652e+09 || runtime = 5.85e+04 || fe_runtime = 5.84e+04 || fe_num = 4000 <- opt_x [-9.73e+00 ... +4.51e+00]
+$------- Summary -------$:
+* func_name: cf_schwefel12 + test_num: 3 + func_dim: 100000
+* algo_name: ALCPSO + algo_fe_max: 4000
+   opt_y      --- Mean & Std: 2.22e+09  &  1.93e+08
+   runtime    --- Mean & Std: 5.86e+04  &  3.95e+02
+   fe_runtime --- Mean & Std: 5.86e+04  &  3.95e+02
+   fe_ratio   --- Mean & Std:   99.97%  &     0.00%
+   fe_num     --- Mean & Std: 4.00e+03  &  0.00e+00
+Total run time: 175733.949541 seconds.
+
+
+* func_name: cf_schwefel12 + test_num: 3 + func_dim: 100000
+* algo_name: ALCPSO + algo_fe_max: 5000
+test  1: opt_y = +2.2940e+09 || runtime = 7.49e+04 || fe_runtime = 7.49e+04 || fe_num = 5000 <- opt_x [-3.06e+00 ... +1.67e+00]
+test  2: opt_y = +2.2181e+09 || runtime = 7.47e+04 || fe_runtime = 7.47e+04 || fe_num = 5000 <- opt_x [-7.07e+00 ... -8.90e+00]
+test  3: opt_y = +1.9788e+09 || runtime = 7.40e+04 || fe_runtime = 7.39e+04 || fe_num = 5000 <- opt_x [+5.88e-01 ... -2.59e+00]
+$------- Summary -------$:
+* func_name: cf_schwefel12 + test_num: 3 + func_dim: 100000
+* algo_name: ALCPSO + algo_fe_max: 5000
+   opt_y      --- Mean & Std: 2.16e+09  &  1.64e+08
+   runtime    --- Mean & Std: 7.45e+04  &  5.05e+02
+   fe_runtime --- Mean & Std: 7.45e+04  &  5.04e+02
+   fe_ratio   --- Mean & Std:   99.97%  &     0.00%
+   fe_num     --- Mean & Std: 5.00e+03  &  0.00e+00
+Total run time: 223614.878531 seconds.
+
+
+Run Time: 660939.636638 seconds.

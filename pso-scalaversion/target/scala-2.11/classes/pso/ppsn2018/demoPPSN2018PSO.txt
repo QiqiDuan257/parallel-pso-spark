@@ -1,0 +1,137 @@
+***
+Run Time Varying with Function Dimensions.
+***
+
+
+* funcName: cfSchwefel12 + testNum: 3 + funcDim: 10
+* algoName: PSO + algoFuncEvalMax: 500
+test  0: opty = +1.9129e+02 || runTime = 1.03e-01 || funcEvalRuntime = 1.91e-02 || funcEvalNum = 500 || <- optx [-8.98e-01 ... +3.02e-02]
+test  1: opty = +1.4072e+02 || runTime = 1.27e-02 || funcEvalRuntime = 2.30e-03 || funcEvalNum = 500 || <- optx [-2.95e-01 ... +1.94e+00]
+test  2: opty = +8.3659e+01 || runTime = 1.07e-02 || funcEvalRuntime = 1.32e-03 || funcEvalNum = 500 || <- optx [-1.68e+00 ... -4.37e+00]
+$ ------- >>> Summary <<< ------- $:
+* funcName: cfSchwefel12 + testNum: 3 + funcDim: 10
+* algoName: PSO + algoFuncEvalMax: 500
+opty            --- Mean & Std: 1.39e+02  &  5.38e+01
+runtime         --- Mean & Std: 4.23e-02  &  5.30e-02 vs. 4.63e-02  &  5.22e-02 [MATLAB]
+funcEvalRuntime --- Mean & Std: 7.57e-03  &  9.99e-03
+funcEvalRatio   --- Mean & Std:   16.30%  &     3.41%
+funcEvalNum     --- Mean & Std: 5.00e+02  &  0.00e+00
+Total run time: 6.74e-01 seconds. vs. 0.415190 [MATLAB]
+
+
+* funcName: cfSchwefel12 + testNum: 3 + funcDim: 100
+* algoName: PSO + algoFuncEvalMax: 500
+test  0: opty = +1.2610e+06 || runTime = 6.96e-02 || funcEvalRuntime = 1.67e-02 || funcEvalNum = 500 || <- optx [+4.82e-01 ... +9.70e+00]
+test  1: opty = +1.5497e+06 || runTime = 5.20e-02 || funcEvalRuntime = 1.26e-02 || funcEvalNum = 500 || <- optx [+6.00e+00 ... +1.00e+01]
+test  2: opty = +1.4071e+06 || runTime = 4.67e-02 || funcEvalRuntime = 1.23e-02 || funcEvalNum = 500 || <- optx [+2.88e+00 ... -3.01e+00]
+$ ------- >>> Summary <<< ------- $:
+* funcName: cfSchwefel12 + testNum: 3 + funcDim: 100
+* algoName: PSO + algoFuncEvalMax: 500
+opty            --- Mean & Std: 1.41e+06  &  1.44e+05
+runtime         --- Mean & Std: 5.61e-02  &  1.20e-02 vs. 2.80e-02  &  8.27e-03 [MATLAB]
+funcEvalRuntime --- Mean & Std: 1.39e-02  &  2.49e-03
+funcEvalRatio   --- Mean & Std:   24.87%  &     1.21%
+funcEvalNum     --- Mean & Std: 5.00e+02  &  0.00e+00
+Total run time: 1.72e-01 seconds. vs. 0.103918 [MATLAB]
+
+
+* funcName: cfSchwefel12 + testNum: 3 + funcDim: 1000
+* algoName: PSO + algoFuncEvalMax: 500
+test  0: opty = +3.3261e+09 || runTime = 1.35e+00 || funcEvalRuntime = 1.01e+00 || funcEvalNum = 500 || <- optx [-2.24e+00 ... +1.00e+01]
+test  1: opty = +3.3493e+09 || runTime = 1.33e+00 || funcEvalRuntime = 1.01e+00 || funcEvalNum = 500 || <- optx [+8.90e+00 ... +1.00e+01]
+test  2: opty = +3.2201e+09 || runTime = 1.33e+00 || funcEvalRuntime = 1.00e+00 || funcEvalNum = 500 || <- optx [+7.48e+00 ... +6.76e+00]
+$ ------- >>> Summary <<< ------- $:
+* funcName: cfSchwefel12 + testNum: 3 + funcDim: 1000
+* algoName: PSO + algoFuncEvalMax: 500
+opty            --- Mean & Std: 3.30e+09  &  6.89e+07
+runtime         --- Mean & Std: 1.34e+00  &  1.24e-02 vs. 8.90e-01  &  9.12e-03 [MATLAB]
+funcEvalRuntime --- Mean & Std: 1.01e+00  &  5.37e-03
+funcEvalRatio   --- Mean & Std:   75.52%  &     0.30%
+funcEvalNum     --- Mean & Std: 5.00e+02  &  0.00e+00
+Total run time: 4.01e+00 seconds. vs. 2.685344 [MATLAB]
+
+
+* funcName: cfSchwefel12 + testNum: 3 + funcDim: 10000
+* algoName: PSO + algoFuncEvalMax: 500
+test  0: opty = +3.8757e+12 || runTime = 1.38e+02 || funcEvalRuntime = 1.35e+02 || funcEvalNum = 500 || <- optx [+2.78e+00 ... -9.81e-01]
+test  1: opty = +3.3188e+12 || runTime = 1.38e+02 || funcEvalRuntime = 1.35e+02 || funcEvalNum = 500 || <- optx [+1.00e+01 ... -2.31e+00]
+test  2: opty = +3.3205e+12 || runTime = 1.38e+02 || funcEvalRuntime = 1.35e+02 || funcEvalNum = 500 || <- optx [+4.15e+00 ... -2.70e+00]
+$ ------- >>> Summary <<< ------- $:
+* funcName: cfSchwefel12 + testNum: 3 + funcDim: 10000
+* algoName: PSO + algoFuncEvalMax: 500
+opty            --- Mean & Std: 3.50e+12  &  3.21e+11
+runtime         --- Mean & Std: 1.38e+02  &  3.60e-01 vs. 7.30e+01  &  3.55e-01 [MATLAB]
+funcEvalRuntime --- Mean & Std: 1.35e+02  &  6.20e-02
+funcEvalRatio   --- Mean & Std:   98.04%  &     0.22%
+funcEvalNum     --- Mean & Std: 5.00e+02  &  0.00e+00
+Total run time: 4.13e+02 seconds. vs. 219.165354 [MATLAB]
+
+
+* funcName: cfSchwefel12 + testNum: 3 + funcDim: 100000
+* algoName: PSO + algoFuncEvalMax: 500
+test  0: opty = +3.3538e+15 || runTime = 1.98e+04 || funcEvalRuntime = 1.97e+04 || funcEvalNum = 500 || <- optx [+8.77e+00 ... +8.99e+00]
+test  1: opty = +3.3644e+15 || runTime = 1.97e+04 || funcEvalRuntime = 1.97e+04 || funcEvalNum = 500 || <- optx [-1.74e+00 ... -1.46e-02]
+test  2: opty = +3.3809e+15 || runTime = 1.97e+04 || funcEvalRuntime = 1.97e+04 || funcEvalNum = 500 || <- optx [+1.72e+00 ... +9.08e+00]
+$ ------- >>> Summary <<< ------- $:
+* funcName: cfSchwefel12 + testNum: 3 + funcDim: 100000
+* algoName: PSO + algoFuncEvalMax: 500
+opty            --- Mean & Std: 3.37e+15  &  1.37e+13
+runtime         --- Mean & Std: 1.97e+04  &  2.85e+01 vs. 9.13e+03  &  4.99e+01 [MATLAB]
+funcEvalRuntime --- Mean & Std: 1.97e+04  &  2.82e+01
+funcEvalRatio   --- Mean & Std:   99.87%  &     0.00%
+funcEvalNum     --- Mean & Std: 5.00e+02  &  0.00e+00
+Total run time: 5.92e+04 seconds. vs. 27399.541549 [MATLAB]
+
+
+Run Time: 5.96e+04 seconds.
+
+
+
+
+
+
+
+***
+Run Time Varying with Number of Function Evaluations.
+***
+
+* funcName: cfSchwefel12 + testNum: 3 + funcDim: 100000
+* algoName: PSO + algoFuncEvalMax: 1000
+test  0: opty = +5.9992e+14 || runTime = 3.97e+04 || funcEvalRuntime = 3.96e+04 || funcEvalNum = 1000 || <- optx [-5.76e+00 ... -6.18e-01]
+test  1: opty = +6.1120e+14 || runTime = 3.94e+04 || funcEvalRuntime = 3.93e+04 || funcEvalNum = 1000 || <- optx [+9.32e+00 ... +1.46e+00]
+test  2: opty = +6.1470e+14 || runTime = 3.96e+04 || funcEvalRuntime = 3.95e+04 || funcEvalNum = 1000 || <- optx [-3.68e+00 ... +9.26e+00]
+$ ------- >>> Summary <<< ------- $:
+* funcName: cfSchwefel12 + testNum: 3 + funcDim: 100000
+* algoName: PSO + algoFuncEvalMax: 1000
+opty            --- Mean & Std: 6.09e+14  &  7.72e+12
+runtime         --- Mean & Std: 3.96e+04  &  1.52e+02
+funcEvalRuntime --- Mean & Std: 3.95e+04  &  1.51e+02
+funcEvalRatio   --- Mean & Std:   99.85%  &     0.00%
+funcEvalNum     --- Mean & Std: 1.00e+03  &  0.00e+00
+Total run time: 1.19e+05 seconds.
+
+* funcName: cfSchwefel12 + testNum: 1 + funcDim: 100000
+* algoName: PSO + algoFuncEvalMax: 2000
+test  0: opty = +1.2406e+10 || runTime = 7.91e+04 || funcEvalRuntime = 7.89e+04 || funcEvalNum = 2000 || <- optx [-5.67e-01 ... +5.22e+00]
+$ ------- >>> Summary <<< ------- $:
+* funcName: cfSchwefel12 + testNum: 1 + funcDim: 100000
+* algoName: PSO + algoFuncEvalMax: 2000
+opty            --- Mean & Std: 1.24e+10  &  0.00e+00
+runtime         --- Mean & Std: 7.91e+04  &  0.00e+00
+funcEvalRuntime --- Mean & Std: 7.89e+04  &  0.00e+00
+funcEvalRatio   --- Mean & Std:   99.84%  &     0.00%
+funcEvalNum     --- Mean & Std: 2.00e+03  &  0.00e+00
+Total run time: 7.91e+04 seconds.
+
+* funcName: cfSchwefel12 + testNum: 1 + funcDim: 100000
+* algoName: PSO + algoFuncEvalMax: 3000
+test  0: opty = +4.5141e+09 || runTime = 1.18e+05 || funcEvalRuntime = 1.18e+05 || funcEvalNum = 3000 || <- optx [-6.78e+00 ... -7.05e+00]
+$ ------- >>> Summary <<< ------- $:
+* funcName: cfSchwefel12 + testNum: 1 + funcDim: 100000
+* algoName: PSO + algoFuncEvalMax: 3000
+opty            --- Mean & Std: 4.51e+09  &  0.00e+00
+runtime         --- Mean & Std: 1.18e+05  &  0.00e+00
+funcEvalRuntime --- Mean & Std: 1.18e+05  &  0.00e+00
+funcEvalRatio   --- Mean & Std:   99.85%  &     0.00%
+funcEvalNum     --- Mean & Std: 3.00e+03  &  0.00e+00
+Total run time: 1.18e+05 seconds.

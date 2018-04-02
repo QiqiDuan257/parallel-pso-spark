@@ -1,0 +1,174 @@
+***
+Run Time Varying with Function Dimensions.
+***
+
+* funcName: cfSphere + testNum: 30 + funcDim: 100000
+* algoName: PSOSpark + algoFuncEvalMax: 500
+test  0: opty = +1.6012e+06 || runTime = 1.33e+01 || funcEvalRuntime = 5.82e+00 || funcEvalNum = 500 || <- optx [+5.56e+00 ... +2.00e+00]
+test  1: opty = +1.5959e+06 || runTime = 1.13e+01 || funcEvalRuntime = 4.21e+00 || funcEvalNum = 500 || <- optx [+2.86e-01 ... -3.21e+00]
+test  2: opty = +1.5994e+06 || runTime = 1.12e+01 || funcEvalRuntime = 4.16e+00 || funcEvalNum = 500 || <- optx [-3.75e+00 ... +2.38e+00]
+test  3: opty = +1.5933e+06 || runTime = 1.10e+01 || funcEvalRuntime = 4.15e+00 || funcEvalNum = 500 || <- optx [-9.28e-01 ... -1.22e+00]
+test  4: opty = +1.5982e+06 || runTime = 1.18e+01 || funcEvalRuntime = 4.77e+00 || funcEvalNum = 500 || <- optx [+3.56e+00 ... -1.22e+00]
+test  5: opty = +1.5968e+06 || runTime = 1.14e+01 || funcEvalRuntime = 4.37e+00 || funcEvalNum = 500 || <- optx [+5.16e+00 ... +2.29e+00]
+test  6: opty = +1.5975e+06 || runTime = 1.13e+01 || funcEvalRuntime = 4.45e+00 || funcEvalNum = 500 || <- optx [-9.59e+00 ... -3.55e-01]
+test  7: opty = +1.6008e+06 || runTime = 1.14e+01 || funcEvalRuntime = 4.48e+00 || funcEvalNum = 500 || <- optx [-1.48e+00 ... -6.40e+00]
+test  8: opty = +1.5991e+06 || runTime = 1.16e+01 || funcEvalRuntime = 4.37e+00 || funcEvalNum = 500 || <- optx [+1.26e+00 ... +5.09e+00]
+test  9: opty = +1.5999e+06 || runTime = 1.11e+01 || funcEvalRuntime = 4.32e+00 || funcEvalNum = 500 || <- optx [-6.30e+00 ... -4.19e+00]
+test 10: opty = +1.5959e+06 || runTime = 1.17e+01 || funcEvalRuntime = 4.60e+00 || funcEvalNum = 500 || <- optx [-7.39e+00 ... +8.10e+00]
+test 11: opty = +1.5992e+06 || runTime = 1.13e+01 || funcEvalRuntime = 4.39e+00 || funcEvalNum = 500 || <- optx [-3.86e+00 ... -3.62e-01]
+test 12: opty = +1.5981e+06 || runTime = 1.14e+01 || funcEvalRuntime = 4.46e+00 || funcEvalNum = 500 || <- optx [-4.44e+00 ... -3.38e-01]
+test 13: opty = +1.6004e+06 || runTime = 1.11e+01 || funcEvalRuntime = 4.33e+00 || funcEvalNum = 500 || <- optx [-1.89e+00 ... -3.55e+00]
+test 14: opty = +1.6005e+06 || runTime = 1.13e+01 || funcEvalRuntime = 4.38e+00 || funcEvalNum = 500 || <- optx [-2.17e+00 ... +2.15e+00]
+test 15: opty = +1.5927e+06 || runTime = 1.12e+01 || funcEvalRuntime = 4.33e+00 || funcEvalNum = 500 || <- optx [+3.54e+00 ... -4.25e+00]
+test 16: opty = +1.5971e+06 || runTime = 1.13e+01 || funcEvalRuntime = 4.34e+00 || funcEvalNum = 500 || <- optx [+7.01e+00 ... +1.47e+00]
+test 17: opty = +1.6016e+06 || runTime = 1.13e+01 || funcEvalRuntime = 4.31e+00 || funcEvalNum = 500 || <- optx [-3.56e+00 ... -3.82e+00]
+test 18: opty = +1.5979e+06 || runTime = 1.14e+01 || funcEvalRuntime = 4.50e+00 || funcEvalNum = 500 || <- optx [-2.45e+00 ... +7.44e+00]
+test 19: opty = +1.5954e+06 || runTime = 1.17e+01 || funcEvalRuntime = 4.38e+00 || funcEvalNum = 500 || <- optx [-6.23e+00 ... -6.39e+00]
+test 20: opty = +1.5980e+06 || runTime = 1.20e+01 || funcEvalRuntime = 4.53e+00 || funcEvalNum = 500 || <- optx [-2.36e-02 ... +4.14e+00]
+test 21: opty = +1.5898e+06 || runTime = 1.18e+01 || funcEvalRuntime = 4.34e+00 || funcEvalNum = 500 || <- optx [-1.67e+00 ... -3.10e+00]
+test 22: opty = +1.6004e+06 || runTime = 1.15e+01 || funcEvalRuntime = 4.36e+00 || funcEvalNum = 500 || <- optx [-3.38e-01 ... +2.74e+00]
+test 23: opty = +1.6002e+06 || runTime = 1.16e+01 || funcEvalRuntime = 4.54e+00 || funcEvalNum = 500 || <- optx [-1.33e+00 ... -1.33e-01]
+test 24: opty = +1.5951e+06 || runTime = 1.16e+01 || funcEvalRuntime = 4.41e+00 || funcEvalNum = 500 || <- optx [+1.97e+00 ... -1.62e+00]
+test 25: opty = +1.5998e+06 || runTime = 1.19e+01 || funcEvalRuntime = 4.48e+00 || funcEvalNum = 500 || <- optx [-3.15e+00 ... +6.87e+00]
+test 26: opty = +1.5914e+06 || runTime = 1.19e+01 || funcEvalRuntime = 4.47e+00 || funcEvalNum = 500 || <- optx [+3.96e+00 ... +1.54e+00]
+test 27: opty = +1.5901e+06 || runTime = 1.16e+01 || funcEvalRuntime = 4.36e+00 || funcEvalNum = 500 || <- optx [+5.40e-01 ... +1.58e-01]
+test 28: opty = +1.5981e+06 || runTime = 1.17e+01 || funcEvalRuntime = 4.40e+00 || funcEvalNum = 500 || <- optx [+4.61e+00 ... -2.44e-01]
+test 29: opty = +1.5990e+06 || runTime = 1.18e+01 || funcEvalRuntime = 4.46e+00 || funcEvalNum = 500 || <- optx [+1.23e-01 ... +1.92e+00]
+$ ------- >>> Summary <<< ------- $:
+* funcName: cfSphere + testNum: 30 + funcDim: 100000
+* algoName: PSOSpark + algoFuncEvalMax: 500
+opty            --- Mean & Std: 1.60e+06 & 3.24e+03
+runtime         --- Mean & Std: 1.16e+01 & 4.23e-01
+funcEvalRuntime --- Mean & Std: 4.45e+00 & 2.86e-01
+funcEvalRatio   --- Mean & Std:   38.50% &    1.32%
+funcEvalNum     --- Mean & Std: 5.00e+02 & 0.00e+00
+Total run time: 3.47e+02 seconds.
+
+* funcName: cfRosenbrock + testNum: 30 + funcDim: 100000
+* algoName: PSOSpark + algoFuncEvalMax: 500
+test  0: opty = +7.4323e+09 || runTime = 1.24e+01 || funcEvalRuntime = 4.88e+00 || funcEvalNum = 500 || <- optx [+4.58e+00 ... -3.76e-01]
+test  1: opty = +7.3954e+09 || runTime = 1.21e+01 || funcEvalRuntime = 4.82e+00 || funcEvalNum = 500 || <- optx [+6.74e+00 ... -1.94e+00]
+test  2: opty = +7.4323e+09 || runTime = 1.24e+01 || funcEvalRuntime = 4.86e+00 || funcEvalNum = 500 || <- optx [-1.81e+00 ... +2.40e+00]
+test  3: opty = +7.4823e+09 || runTime = 1.18e+01 || funcEvalRuntime = 4.57e+00 || funcEvalNum = 500 || <- optx [-7.15e-01 ... -3.11e+00]
+test  4: opty = +7.3728e+09 || runTime = 1.18e+01 || funcEvalRuntime = 4.55e+00 || funcEvalNum = 500 || <- optx [+6.13e-01 ... +1.44e+00]
+test  5: opty = +7.4675e+09 || runTime = 1.17e+01 || funcEvalRuntime = 4.51e+00 || funcEvalNum = 500 || <- optx [-1.45e+00 ... -1.78e+00]
+test  6: opty = +7.4881e+09 || runTime = 1.23e+01 || funcEvalRuntime = 4.93e+00 || funcEvalNum = 500 || <- optx [+6.65e+00 ... +3.19e+00]
+test  7: opty = +7.4096e+09 || runTime = 1.17e+01 || funcEvalRuntime = 4.46e+00 || funcEvalNum = 500 || <- optx [-1.14e+00 ... +1.61e+00]
+test  8: opty = +7.4439e+09 || runTime = 1.23e+01 || funcEvalRuntime = 4.98e+00 || funcEvalNum = 500 || <- optx [-4.76e+00 ... -1.54e+00]
+test  9: opty = +7.4124e+09 || runTime = 1.23e+01 || funcEvalRuntime = 4.62e+00 || funcEvalNum = 500 || <- optx [-2.18e+00 ... -3.81e+00]
+test 10: opty = +7.4329e+09 || runTime = 1.21e+01 || funcEvalRuntime = 4.62e+00 || funcEvalNum = 500 || <- optx [-5.81e+00 ... -1.21e+00]
+test 11: opty = +7.4801e+09 || runTime = 1.25e+01 || funcEvalRuntime = 4.77e+00 || funcEvalNum = 500 || <- optx [-2.29e+00 ... -6.28e+00]
+test 12: opty = +7.3993e+09 || runTime = 1.21e+01 || funcEvalRuntime = 4.57e+00 || funcEvalNum = 500 || <- optx [+2.53e+00 ... +2.85e+00]
+test 13: opty = +7.5144e+09 || runTime = 1.19e+01 || funcEvalRuntime = 4.65e+00 || funcEvalNum = 500 || <- optx [+1.00e+01 ... -2.43e+00]
+test 14: opty = +7.4811e+09 || runTime = 1.18e+01 || funcEvalRuntime = 4.51e+00 || funcEvalNum = 500 || <- optx [-4.52e+00 ... +4.20e+00]
+test 15: opty = +7.4359e+09 || runTime = 1.19e+01 || funcEvalRuntime = 4.51e+00 || funcEvalNum = 500 || <- optx [+2.41e-01 ... +3.19e+00]
+test 16: opty = +7.4618e+09 || runTime = 1.19e+01 || funcEvalRuntime = 4.60e+00 || funcEvalNum = 500 || <- optx [+2.42e+00 ... +2.33e+00]
+test 17: opty = +7.4228e+09 || runTime = 1.19e+01 || funcEvalRuntime = 4.51e+00 || funcEvalNum = 500 || <- optx [+1.85e+00 ... +6.50e+00]
+test 18: opty = +7.4899e+09 || runTime = 1.19e+01 || funcEvalRuntime = 4.49e+00 || funcEvalNum = 500 || <- optx [-5.68e+00 ... -7.77e+00]
+test 19: opty = +7.4631e+09 || runTime = 1.19e+01 || funcEvalRuntime = 4.42e+00 || funcEvalNum = 500 || <- optx [+2.20e+00 ... +2.52e+00]
+test 20: opty = +7.4802e+09 || runTime = 1.18e+01 || funcEvalRuntime = 4.45e+00 || funcEvalNum = 500 || <- optx [+4.86e-01 ... -5.49e+00]
+test 21: opty = +7.4613e+09 || runTime = 1.16e+01 || funcEvalRuntime = 4.48e+00 || funcEvalNum = 500 || <- optx [-1.60e+00 ... +1.48e+00]
+test 22: opty = +7.4338e+09 || runTime = 1.15e+01 || funcEvalRuntime = 4.41e+00 || funcEvalNum = 500 || <- optx [+2.77e+00 ... -1.03e+00]
+test 23: opty = +7.4523e+09 || runTime = 1.16e+01 || funcEvalRuntime = 4.36e+00 || funcEvalNum = 500 || <- optx [+3.07e+00 ... -8.14e-01]
+test 24: opty = +7.4514e+09 || runTime = 1.20e+01 || funcEvalRuntime = 4.78e+00 || funcEvalNum = 500 || <- optx [-2.03e+00 ... +8.94e+00]
+test 25: opty = +7.4319e+09 || runTime = 1.19e+01 || funcEvalRuntime = 4.54e+00 || funcEvalNum = 500 || <- optx [-3.50e-01 ... +1.14e+00]
+test 26: opty = +7.4620e+09 || runTime = 1.17e+01 || funcEvalRuntime = 4.53e+00 || funcEvalNum = 500 || <- optx [-4.85e+00 ... +3.52e+00]
+test 27: opty = +7.4554e+09 || runTime = 1.18e+01 || funcEvalRuntime = 4.46e+00 || funcEvalNum = 500 || <- optx [-9.82e-01 ... +1.13e-01]
+test 28: opty = +7.4471e+09 || runTime = 1.18e+01 || funcEvalRuntime = 4.46e+00 || funcEvalNum = 500 || <- optx [-2.18e+00 ... +6.90e-01]
+test 29: opty = +7.4640e+09 || runTime = 1.21e+01 || funcEvalRuntime = 4.82e+00 || funcEvalNum = 500 || <- optx [-9.57e+00 ... -1.58e+00]
+$ ------- >>> Summary <<< ------- $:
+* funcName: cfRosenbrock + testNum: 30 + funcDim: 100000
+* algoName: PSOSpark + algoFuncEvalMax: 500
+opty            --- Mean & Std: 7.45e+09 & 3.17e+07
+runtime         --- Mean & Std: 1.20e+01 & 2.51e-01
+funcEvalRuntime --- Mean & Std: 4.60e+00 & 1.69e-01
+funcEvalRatio   --- Mean & Std:   38.52% &    0.85%
+funcEvalNum     --- Mean & Std: 5.00e+02 & 0.00e+00
+Total run time: 3.59e+02 seconds.
+
+* funcName: cfRastrigin + testNum: 30 + funcDim: 100000
+* algoName: PSOSpark + algoFuncEvalMax: 500
+test  0: opty = +2.5686e+06 || runTime = 1.22e+01 || funcEvalRuntime = 4.88e+00 || funcEvalNum = 500 || <- optx [-2.63e+00 ... +3.07e+00]
+test  1: opty = +2.5658e+06 || runTime = 1.19e+01 || funcEvalRuntime = 4.68e+00 || funcEvalNum = 500 || <- optx [-9.86e-01 ... +1.47e+00]
+test  2: opty = +2.5733e+06 || runTime = 1.17e+01 || funcEvalRuntime = 4.66e+00 || funcEvalNum = 500 || <- optx [+5.28e+00 ... -2.35e+00]
+test  3: opty = +2.5788e+06 || runTime = 1.19e+01 || funcEvalRuntime = 4.65e+00 || funcEvalNum = 500 || <- optx [-3.90e+00 ... -3.58e+00]
+test  4: opty = +2.5690e+06 || runTime = 1.20e+01 || funcEvalRuntime = 4.76e+00 || funcEvalNum = 500 || <- optx [-2.87e+00 ... -4.41e-01]
+test  5: opty = +2.5741e+06 || runTime = 1.19e+01 || funcEvalRuntime = 4.68e+00 || funcEvalNum = 500 || <- optx [-1.11e+00 ... -2.26e+00]
+test  6: opty = +2.5663e+06 || runTime = 1.23e+01 || funcEvalRuntime = 4.63e+00 || funcEvalNum = 500 || <- optx [-2.00e+00 ... -2.33e+00]
+test  7: opty = +2.5666e+06 || runTime = 1.24e+01 || funcEvalRuntime = 4.75e+00 || funcEvalNum = 500 || <- optx [+2.37e+00 ... -2.83e+00]
+test  8: opty = +2.5776e+06 || runTime = 1.17e+01 || funcEvalRuntime = 4.62e+00 || funcEvalNum = 500 || <- optx [-2.60e+00 ... +3.52e+00]
+test  9: opty = +2.5749e+06 || runTime = 1.16e+01 || funcEvalRuntime = 4.68e+00 || funcEvalNum = 500 || <- optx [-4.09e+00 ... -3.05e+00]
+test 10: opty = +2.5782e+06 || runTime = 1.14e+01 || funcEvalRuntime = 4.62e+00 || funcEvalNum = 500 || <- optx [+2.29e+00 ... -1.00e+00]
+test 11: opty = +2.5785e+06 || runTime = 1.20e+01 || funcEvalRuntime = 4.69e+00 || funcEvalNum = 500 || <- optx [-1.47e+00 ... +2.40e+00]
+test 12: opty = +2.5715e+06 || runTime = 1.20e+01 || funcEvalRuntime = 4.59e+00 || funcEvalNum = 500 || <- optx [+5.47e+00 ... -3.37e+00]
+test 13: opty = +2.5706e+06 || runTime = 1.22e+01 || funcEvalRuntime = 4.89e+00 || funcEvalNum = 500 || <- optx [-1.61e+00 ... -1.14e+00]
+test 14: opty = +2.5713e+06 || runTime = 1.19e+01 || funcEvalRuntime = 4.72e+00 || funcEvalNum = 500 || <- optx [+8.28e-01 ... -3.02e+00]
+test 15: opty = +2.5732e+06 || runTime = 1.24e+01 || funcEvalRuntime = 4.75e+00 || funcEvalNum = 500 || <- optx [-5.61e+00 ... -1.23e+00]
+test 16: opty = +2.5773e+06 || runTime = 1.22e+01 || funcEvalRuntime = 4.85e+00 || funcEvalNum = 500 || <- optx [+6.55e+00 ... +7.33e+00]
+test 17: opty = +2.5727e+06 || runTime = 1.20e+01 || funcEvalRuntime = 4.60e+00 || funcEvalNum = 500 || <- optx [-6.53e+00 ... +7.95e+00]
+test 18: opty = +2.5816e+06 || runTime = 1.19e+01 || funcEvalRuntime = 4.66e+00 || funcEvalNum = 500 || <- optx [+3.65e+00 ... +2.61e+00]
+test 19: opty = +2.5782e+06 || runTime = 1.25e+01 || funcEvalRuntime = 5.23e+00 || funcEvalNum = 500 || <- optx [+1.35e+00 ... -7.50e-01]
+test 20: opty = +2.5726e+06 || runTime = 1.20e+01 || funcEvalRuntime = 4.75e+00 || funcEvalNum = 500 || <- optx [+3.37e+00 ... -1.61e+00]
+test 21: opty = +2.5738e+06 || runTime = 1.20e+01 || funcEvalRuntime = 4.65e+00 || funcEvalNum = 500 || <- optx [+4.28e+00 ... +4.52e+00]
+test 22: opty = +2.5680e+06 || runTime = 1.22e+01 || funcEvalRuntime = 4.69e+00 || funcEvalNum = 500 || <- optx [-1.28e+00 ... +3.24e+00]
+test 23: opty = +2.5718e+06 || runTime = 1.18e+01 || funcEvalRuntime = 4.69e+00 || funcEvalNum = 500 || <- optx [+2.37e+00 ... +1.00e+01]
+test 24: opty = +2.5689e+06 || runTime = 1.19e+01 || funcEvalRuntime = 4.71e+00 || funcEvalNum = 500 || <- optx [+2.49e+00 ... -1.11e+00]
+test 25: opty = +2.5743e+06 || runTime = 1.20e+01 || funcEvalRuntime = 4.62e+00 || funcEvalNum = 500 || <- optx [-1.37e+00 ... -5.17e-01]
+test 26: opty = +2.5744e+06 || runTime = 1.22e+01 || funcEvalRuntime = 4.86e+00 || funcEvalNum = 500 || <- optx [+4.79e+00 ... -4.93e+00]
+test 27: opty = +2.5724e+06 || runTime = 1.16e+01 || funcEvalRuntime = 4.77e+00 || funcEvalNum = 500 || <- optx [-2.51e+00 ... +1.93e+00]
+test 28: opty = +2.5722e+06 || runTime = 1.20e+01 || funcEvalRuntime = 4.91e+00 || funcEvalNum = 500 || <- optx [-1.47e+00 ... -8.08e-01]
+test 29: opty = +2.5732e+06 || runTime = 1.20e+01 || funcEvalRuntime = 4.83e+00 || funcEvalNum = 500 || <- optx [-6.13e+00 ... -9.97e-01]
+$ ------- >>> Summary <<< ------- $:
+* funcName: cfRastrigin + testNum: 30 + funcDim: 100000
+* algoName: PSOSpark + algoFuncEvalMax: 500
+opty            --- Mean & Std: 2.57e+06 & 4.03e+03
+runtime         --- Mean & Std: 1.20e+01 & 2.37e-01
+funcEvalRuntime --- Mean & Std: 4.74e+00 & 1.30e-01
+funcEvalRatio   --- Mean & Std:   39.46% &    0.91%
+funcEvalNum     --- Mean & Std: 5.00e+02 & 0.00e+00
+Total run time: 3.60e+02 seconds.
+
+* funcName: cfGriewank + testNum: 30 + funcDim: 100000
+* algoName: PSOSpark + algoFuncEvalMax: 500
+test  0: opty = +4.0127e+02 || runTime = 1.25e+01 || funcEvalRuntime = 5.09e+00 || funcEvalNum = 500 || <- optx [-1.71e+00 ... -2.72e+00]
+test  1: opty = +4.0193e+02 || runTime = 1.20e+01 || funcEvalRuntime = 4.72e+00 || funcEvalNum = 500 || <- optx [-1.18e+00 ... -3.48e+00]
+test  2: opty = +4.0139e+02 || runTime = 1.21e+01 || funcEvalRuntime = 4.74e+00 || funcEvalNum = 500 || <- optx [-2.31e+00 ... +6.67e+00]
+test  3: opty = +4.0008e+02 || runTime = 1.20e+01 || funcEvalRuntime = 4.74e+00 || funcEvalNum = 500 || <- optx [+7.05e-01 ... -3.96e+00]
+test  4: opty = +3.9969e+02 || runTime = 1.21e+01 || funcEvalRuntime = 4.78e+00 || funcEvalNum = 500 || <- optx [-2.17e+00 ... +6.23e+00]
+test  5: opty = +4.0119e+02 || runTime = 1.22e+01 || funcEvalRuntime = 4.95e+00 || funcEvalNum = 500 || <- optx [-1.14e+00 ... -1.19e+00]
+test  6: opty = +4.0021e+02 || runTime = 1.21e+01 || funcEvalRuntime = 4.77e+00 || funcEvalNum = 500 || <- optx [+2.78e+00 ... -1.95e+00]
+test  7: opty = +4.0172e+02 || runTime = 1.19e+01 || funcEvalRuntime = 4.99e+00 || funcEvalNum = 500 || <- optx [+2.38e+00 ... +1.78e+00]
+test  8: opty = +4.0032e+02 || runTime = 1.16e+01 || funcEvalRuntime = 4.62e+00 || funcEvalNum = 500 || <- optx [+4.32e+00 ... -4.54e+00]
+test  9: opty = +4.0071e+02 || runTime = 1.19e+01 || funcEvalRuntime = 4.80e+00 || funcEvalNum = 500 || <- optx [-1.11e+00 ... -1.06e+00]
+test 10: opty = +4.0030e+02 || runTime = 1.19e+01 || funcEvalRuntime = 4.72e+00 || funcEvalNum = 500 || <- optx [+1.50e+00 ... -7.00e-01]
+test 11: opty = +4.0021e+02 || runTime = 1.18e+01 || funcEvalRuntime = 4.68e+00 || funcEvalNum = 500 || <- optx [+7.82e-01 ... -1.00e+01]
+test 12: opty = +4.0032e+02 || runTime = 1.18e+01 || funcEvalRuntime = 4.40e+00 || funcEvalNum = 500 || <- optx [+7.88e-01 ... -1.03e+00]
+test 13: opty = +3.9976e+02 || runTime = 1.15e+01 || funcEvalRuntime = 4.59e+00 || funcEvalNum = 500 || <- optx [-6.91e+00 ... +1.09e+00]
+test 14: opty = +3.9898e+02 || runTime = 1.16e+01 || funcEvalRuntime = 4.57e+00 || funcEvalNum = 500 || <- optx [-4.75e+00 ... -1.59e+00]
+test 15: opty = +4.0012e+02 || runTime = 1.16e+01 || funcEvalRuntime = 4.55e+00 || funcEvalNum = 500 || <- optx [-1.31e+00 ... -6.04e+00]
+test 16: opty = +4.0027e+02 || runTime = 1.19e+01 || funcEvalRuntime = 4.57e+00 || funcEvalNum = 500 || <- optx [+1.24e+00 ... -3.77e-01]
+test 17: opty = +4.0053e+02 || runTime = 1.18e+01 || funcEvalRuntime = 4.51e+00 || funcEvalNum = 500 || <- optx [-5.68e+00 ... +3.18e+00]
+test 18: opty = +4.0209e+02 || runTime = 1.17e+01 || funcEvalRuntime = 4.45e+00 || funcEvalNum = 500 || <- optx [-1.64e+00 ... -1.14e-01]
+test 19: opty = +4.0099e+02 || runTime = 1.17e+01 || funcEvalRuntime = 4.46e+00 || funcEvalNum = 500 || <- optx [+6.08e-01 ... -5.49e+00]
+test 20: opty = +4.0100e+02 || runTime = 1.14e+01 || funcEvalRuntime = 4.53e+00 || funcEvalNum = 500 || <- optx [-9.42e+00 ... +2.89e+00]
+test 21: opty = +4.0054e+02 || runTime = 1.16e+01 || funcEvalRuntime = 4.41e+00 || funcEvalNum = 500 || <- optx [-1.72e+00 ... -9.79e+00]
+test 22: opty = +4.0080e+02 || runTime = 1.13e+01 || funcEvalRuntime = 4.41e+00 || funcEvalNum = 500 || <- optx [+8.94e+00 ... -7.89e+00]
+test 23: opty = +4.0046e+02 || runTime = 1.15e+01 || funcEvalRuntime = 4.44e+00 || funcEvalNum = 500 || <- optx [+7.18e+00 ... +2.94e+00]
+test 24: opty = +4.0191e+02 || runTime = 1.16e+01 || funcEvalRuntime = 4.59e+00 || funcEvalNum = 500 || <- optx [-1.98e-01 ... +7.94e+00]
+test 25: opty = +4.0099e+02 || runTime = 1.19e+01 || funcEvalRuntime = 4.70e+00 || funcEvalNum = 500 || <- optx [-8.00e-01 ... -7.75e+00]
+test 26: opty = +4.0081e+02 || runTime = 1.19e+01 || funcEvalRuntime = 4.67e+00 || funcEvalNum = 500 || <- optx [-1.90e+00 ... +4.90e+00]
+test 27: opty = +4.0027e+02 || runTime = 1.21e+01 || funcEvalRuntime = 4.80e+00 || funcEvalNum = 500 || <- optx [-2.57e+00 ... -6.00e+00]
+test 28: opty = +4.0111e+02 || runTime = 1.18e+01 || funcEvalRuntime = 4.61e+00 || funcEvalNum = 500 || <- optx [+1.01e+00 ... +2.79e+00]
+test 29: opty = +4.0005e+02 || runTime = 1.20e+01 || funcEvalRuntime = 4.71e+00 || funcEvalNum = 500 || <- optx [+3.41e+00 ... -5.37e-01]
+$ ------- >>> Summary <<< ------- $:
+* funcName: cfGriewank + testNum: 30 + funcDim: 100000
+* algoName: PSOSpark + algoFuncEvalMax: 500
+opty            --- Mean & Std: 4.01e+02 & 7.14e-01
+runtime         --- Mean & Std: 1.18e+01 & 2.64e-01
+funcEvalRuntime --- Mean & Std: 4.65e+00 & 1.74e-01
+funcEvalRatio   --- Mean & Std:   39.33% &    0.92%
+funcEvalNum     --- Mean & Std: 5.00e+02 & 0.00e+00
+Total run time: 3.55e+02 seconds.
+
+
+Run Time: 1.42e+03 seconds.
