@@ -53,7 +53,7 @@ for ti = 1 : test_num % test_ind
 end
 
 fprintf('$------- Summary -------$:\n');
-fe_ratio = 100.0 * (fe_runtimes / runtimes); % percentage
+fe_ratio = 100.0 * (fe_runtimes ./ runtimes); % percentage
 fprintf(sprintf('* func_name: %s + test_num: %d + func_dim: %d\n', ...
     func_name, test_num, func_dim));
 fprintf(sprintf('* algo_name: %s + algo_fe_max: %d\n', ...
