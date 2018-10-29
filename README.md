@@ -2,7 +2,7 @@
 
 **Spark-based Parallel Particle Swarm Optimizer for Computationally Expensive Continuous Function Optimization.**
 
-This is an open-source GitHub project complementary to the conference paper, which has been submitted to [PPSN 2018](http://ppsn2018.dei.uc.pt/) (under review).
+This is an open-source GitHub project complementary to the conference paper, which has been submitted to [PPSN 2018](http://ppsn2018.dei.uc.pt/) (accepted).
 
 ## How to Run
 
